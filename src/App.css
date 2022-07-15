@@ -1,0 +1,82 @@
+
+* {
+  padding: "0";
+  margin: "0";
+  box-sizing: border-box;
+  scroll-behavior: smooth;
+}
+
+@font-face {
+  font-family: 'CircularStd-Black';
+  src: local('CircularStd'), url(./fonts/CircularStd-Black.otf) format('opentype');
+}
+
+@font-face {
+    font-family: 'CircularStd-BlackItalic';
+  src: local('CircularStd'), url(./fonts/CircularStd-BlackItalic.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CircularStd-Bold';
+  src: local('CircularStd'), url(./fonts/CircularStd-Bold.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CircularStd-BoldItalic';
+  src: local('CircularStd'), url(./fonts/CircularStd-BoldItalic.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CircularStd-Book';
+  src: local('CircularStd'), url(./fonts/CircularStd-Book.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CircularStd-BookItalic';
+  src: local('CircularStd'), url(./fonts/CircularStd-BookItalic.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CircularStd-Light-Italic';
+  src: local('CircularStd'), url(./fonts/CircularStd-Light\ Italic.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CircularStd-Light';
+  src: local('CircularStd'), url(./fonts/CircularStd-Light.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CircularStd-Medium';
+  src: local('CircularStd'), url(./fonts/CircularStd-Medium.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CircularStd-MediumItalic';
+  src: local('CircularStd'), url(./fonts/CircularStd-MediumItalic.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CamptonBold';
+  src: local('Campton'), url(./fonts/CamptonBold.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CamptonLight';
+  src: local('Campton'), url(./fonts/CamptonLight.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CamptonMedium';
+  src: local('Campton'), url(./fonts/CamptonMedium.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CamptonBook';
+  src: local('Campton'), url(./fonts/CamptonBook.otf) format('opentype');
+}
+
+@font-face {
+   font-family: 'CamptonSemiBold';
+  src: local('Campton'), url(./fonts/CamptonSemiBold.otf) format('opentype');
+}

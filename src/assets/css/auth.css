@@ -1,0 +1,51 @@
+.stat-box {
+  padding: 8px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  background-color: #fff;
+  box-shadow: 0 2px 5px 0 rgba(180, 180, 180, 0.5);
+  border-radius: 10px;
+}
+.textHead {
+  margin-bottom: 0 !important;
+}
+.sign-in-side {
+  background-color: #00B7D0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.secure-login-image {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  margin-left: 10%;
+}
+
+.forgot-password-side {
+  background-color: #00B7D0;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+  width: 100%;
+}
+
+.forgot-password-image {
+  width: 80%;
+  height: 80%;
+  margin: auto;
+  color: rgba(246, 245, 252, 0.69);
+}
+
+.sign-up-bg {
+  background-color: #F4F3F8;
+}
+
+.drop-down-icon {
+  background: transparent !important;
+  border: #fff !important;
+}

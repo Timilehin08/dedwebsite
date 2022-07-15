@@ -1,0 +1,3701 @@
+/*OLD MEDIA QUERIES USED.
+IT'S CURRENTLY NOT CONNECTED OR DOING ANYTHING*/
+
+
+/*a:visited {
+color: black !important;
+}*/
+
+/*--------------------------MEDIA QUERIES START------------*/
+/*Galaxy Fold (653px)*/
+@media only screen and (min-device-width: 280px) and (max-device-width: 653px){
+.container .logo {
+    margin-left: 0px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.big-text {
+    font-size: 22px !important;
+	}
+
+	.small-text {
+    font-size: 14px !important;
+	}
+
+	.promotion {
+    /*font-size: 24px !important;*/
+		display: none !important;
+	}
+
+	.promotion-logo{
+		display: none !important;
+	}
+
+	.promotion-padding {
+    padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+
+	.about-bg {
+     /*padding-top: 0px !important; */
+    margin-top: -600px !important;
+    margin-bottom: 0px !important; 
+	}
+
+	.about-img{
+		/*max-width: 500px !important;
+    height: 250px !important;
+    margin-left: 0px !important;
+		padding-bottom: 450px !important;*/
+		background-image: none !important;
+	}
+
+	.about-rg {
+    margin-left: 10px !important;
+}
+
+	/*.about-bg {
+     padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+	.about-img{
+		max-width: 390px !important;
+    height: 390px !important;
+    margin-left: 0px !important;
+		padding-bottom: 450px !important;
+	}*/
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-rg {
+    margin-left: 10px !important;
+	}
+
+	.build-img {
+    max-width: 390px !important;
+    height: 390px !important;
+		margin-left: 20px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-text h1 {
+    font-size: 22px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 260px !important;
+    height: 330px !important;
+    margin-left: 10px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 22px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-top: 0px !important;
+		margin-left: 10px !important;
+	}
+
+	.achieve-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.access-text h1{
+  font-size: 22px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 20px !important;
+		padding-top: 20px !important;
+	}
+
+.access-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 120px !important;
+	}
+
+	.support-big {
+    font-size: 30px !important;
+	}
+
+	.support-small {
+    font-size: 14px !important;
+	}
+
+	.support-logo{
+	background-image: none !important;
+	}
+
+	.support-padding {
+    padding-top: 500px !important;
+    padding-bottom: 500px !important;
+	}
+
+	.support-text{
+		margin-top: -350px !important;
+		margin-left: 20px !important;
+	}
+
+	.form-mail .form-control {
+    width: 150px !important;
+		margin-left: 30px !important;
+	}
+
+	.form-mail .form-label {
+		margin-left: 30px !important;
+	}
+
+	.form-name .form-control {
+    width: 125px !important;
+	}
+
+	.form-msg .form-control {
+    width: 180px !important;
+	}
+
+	.form-btn {
+    width: 180px !important;
+    margin-right: 60px !important;
+}
+
+	.form-cont {
+    max-width: 230px !important;
+		margin-right: 20px !important;
+		margin-top: -30px !important;
+		height: 550px !important;
+	}
+
+}
+
+/*Small devices (320px)*/
+@media only screen
+and (min-device-width: 320px) 
+and (max-device-width: 538px) { 
+	.navsmall{
+	margin-top: 100px !important;
+}
+	.herospacing{
+	padding-top: 100px !important;
+}
+
+.countbod{
+	border-top: none !important;
+}
+
+.headerround{
+	margin-bottom: -500px !important;
+}
+
+.headerimg {
+    margin-bottom: 0px !important;
+    margin-top: -200px !important;
+
+	}
+
+	.privibtn{
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+	}
+
+	.deduktneed {
+    margin-left: 30px !important;
+		padding-right: 32px !important;
+	}
+
+	.whybtn {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-left: 9px !important;
+}
+
+.deduktspacingg{
+	padding-top: 160px !important;
+}
+
+.loanspacing {
+    margin-left: -60px !important;
+}
+
+.howtext {
+	  padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-right: 80px !important;
+}
+
+.buildspcing{
+	margin-right: -60px !important;
+}
+
+.achieve-rggg {
+    margin-left: 0px !important;
+    padding-right: 150px !important;
+	margin-top: -90px !important;
+	margin-bottom: -90px !important;
+	}
+
+.valcontt{
+	margin-right: -150px !important;
+}
+
+.partnerspacing{
+	padding-top: 250px !important;
+}
+
+.form-namee .form-control{
+	/*background-clip: linear-gradient(to right, #10008B, #98E2EC) !important;*/
+border-color: #10008B !important;
+width: 250px !important;
+}
+
+.form-maill .form-control {
+	border-color: #10008B !important;
+    width: 250px !important;
+	}
+
+	.form-msgg .form-control {
+    width: 255px !important;
+		border-color: #10008B !important;
+	}
+
+	.form-btnn {
+    width: 250px !important;
+	}
+
+	.iconn{
+		margin-top: 6px !important;
+    margin-left: -12px !important;
+	}
+
+	.form-req .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.reqdemotext{
+	font-size: 16px !important;
+}
+
+.modallbdy{
+	right: -16px !important;
+	top: -94px !important;
+}
+
+.form-req .form-label {
+    margin-left: -220px !important;
+		font-size: 20px !important;
+}
+
+.form-comp .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.form-comp .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-maila .form-control {
+    width: 300px !important;
+    margin-left: 18px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-btnreq {
+    width: 300px !important;
+		margin-left: 0px !important;
+		margin-right: -9px !important;
+	}
+	
+	
+	.container .logo {
+    margin-left: 10px !important;
+}
+
+
+.emp{
+display: none !important;
+}
+
+.heroimg{
+	display: none !important;
+}
+
+.herooimg{
+margin-top: -500px !important;
+margin-bottom: 80px !important;
+}
+
+.bord{
+	display: none !important;
+}
+.len{
+display: none !important;
+}
+
+.men-icon{
+	margin-left: 100px !important;
+}
+
+.herospacing{
+padding-left: 12px !important;
+padding-right: 12px !important;
+}
+
+.lenimgg{
+	display: none !important;
+}
+
+.lenoimg{
+margin-top: -500px !important;
+margin-bottom: 80px !important;
+}
+
+.herofirst{
+	font-size: 28px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	text-align: left !important;
+	margin-bottom: 32px !important;
+}
+
+.herosecond{
+font-size: 12px !important;
+}
+
+.startedbtn{
+	padding-left: 10px !important;
+  margin-bottom: 50px !important;
+}
+
+.counterhero{
+margin-bottom: 50px !important;
+}
+
+.counterbul{
+	display: none !important;
+}
+.headerround {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 60% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-right: -60px !important;
+    padding-left: 20px !important;
+}
+
+
+.privi {
+		padding-top: 0px !important;
+    padding-right: 40px !important;
+    padding-left: 20px !important;
+		margin-right: -40px !important;
+}
+
+.privibtn {
+    font-size: 14px !important;
+    margin-top: 22px !important;
+    margin-bottom: 0px !important;
+    width: 60% !important;
+}
+
+.headerround {
+    background-image: none !important;
+}
+
+.policybtn .privibtn {
+    margin-top: 62px !important;
+    width: 80% !important;
+		font-size: 10px !important;
+	}
+
+ .privipolicy {
+	margin-right: -20px !important;
+}
+
+.imgheader{
+	margin-left: 6px !important;
+	width: 100% !important;
+}
+
+.achieveround{
+	display: none !important;
+}
+
+.achieveecont{ 
+	padding-top: 150px !important;
+  padding-bottom: 200px !important;
+}
+
+.access-rgg {
+    margin-left: 2px !important;
+    margin-top: 1px !important;
+}
+
+.achieve-rggg{
+	margin-left: 0px !important;
+    margin-top: 40px !important;
+    margin-bottom: 80px !important;
+}
+.achievefirstt{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.achievee{
+text-align: center !important;
+}
+
+.achieveesec{
+	text-align: center !important;
+}
+
+.achievesecondd{
+	font-size: 14px !important;
+font-family: 'CamptonBook' !important;
+font-weight: 400 !important;
+}
+
+.accessround{
+display: none !important;
+}
+
+.accesscontt{
+	padding-top: 48px !important;
+  padding-bottom: 16px !important;
+	background-image: linear-gradient(to right, #10008B, #98E2EC);
+}
+
+.accessfirstt{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	color: white !important;
+    text-align: center !important;
+}
+
+.accesssecondd{
+	font-size: 14px !important;
+font-family: 'CamptonBook' !important;
+font-weight: 400 !important;
+	color: white !important;
+    text-align: center !important;
+}
+
+.accesssbtn {
+	background-image: linear-gradient(to right, #F5F5F5, #FFFFFF) !important;
+color: #10008B !important;
+} 
+
+
+.headerimg{
+	margin-bottom: 189px !important;
+}
+
+.unlockgrid{
+padding-left: 0px;
+    padding-right: 2px;
+    align-content: center;
+    text-align: center;
+}
+
+.unlockfirst{
+font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	text-align: left !important;
+	margin-bottom: 32px !important;
+	margin-top: 60px !important;
+	/*text-align: center !important;*/
+}
+
+.unlocksecond{
+font-size: 14px !important;
+font-family: 'CamptonBook' !important;
+font-weight: 400 !important;
+/*text-align: center !important;*/
+}
+
+.unlockmargin{
+	margin-right: 0px !important;
+}
+
+.unlock{
+	margin-left: -30px !important;
+	height: 400px !important;
+	width: 250px !important;
+}
+
+.whyfirst{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	margin-left: 30px !important;
+}
+
+.whysecond{
+	margin-right: 48px !important;
+	padding-left: 20px !important;
+}
+
+.whythird {
+	font-size: 14px !important;
+}
+
+.whybtn{
+	padding-left: 45px !important;
+    padding-right: 45px !important;
+}
+
+.whyabt{
+	display: none !important;
+}
+
+.howfirst{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.howdiv {
+margin-left: -18px !important;
+}
+
+.howsecond {
+	text-align: left !important;
+	font-size: 14px !important;
+}
+
+.howtext {
+	font-size: 18px !important;
+	padding-right: 32px !important;
+}
+
+.howtextfirst {
+	padding-right: 16px !important;
+}
+
+.howtextsecond {
+	padding-right: 25px !important;
+  margin-left: -45px !important;
+}
+
+.howimg {
+display: none !important;
+}
+
+.getstarted{
+padding-left: 96px !important;
+padding-right: 96px !important;
+margin-bottom: 200px !important;
+margin-top: 150px !important;
+}
+
+.startedfirst{
+	font-size: 14px !important;
+}
+
+.startedsecond {
+	font-size: 32px !important;
+}
+
+.whopadding{
+padding-top: 80px !important;
+padding-bottom: 150px !important;
+}
+
+.whoheading{
+	padding-left: 40px !important;
+}
+
+.whotext{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.whoalign{
+margin-right: 16px !important;
+}
+
+.whotextfirst {
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.whotextsecond{
+	font-size: 14px !important;
+}
+
+.whobtn {
+padding-left: 64px !important;
+padding-right: 64px !important;
+}
+
+.whoimg{
+	display: none !important;
+}
+
+.valuetext{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	padding-left: 45px !important;
+}
+
+.value{
+	margin-top: 165px !important;
+}
+
+.valuespacing{
+padding-left: 45px !important;
+}
+
+.valuespace{
+	margin-right: 1px !important;
+  /*padding-left: 20px !important;*/
+}
+.valuefirst {
+	font-size: 18px !important;
+}
+
+.valuesecond{
+	font-size: 14px !important;
+	text-align: left !important;
+}
+
+.abtimg{
+display: none !important;
+}
+
+.growingtext{
+font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.growingone{
+	margin-left: 150px !important;
+}
+
+.growingtwo{
+	display: none !important;
+}
+
+.growingthree{
+	margin-left: 190px !important;
+    margin-top: 70px !important;
+}
+
+.growingfour{
+	margin-left: 240px !important;
+    margin-top: 90px !important;
+}
+
+.reqdemobtn{
+padding-left: 64px !important;
+padding-right: 64px !important;
+}
+
+.getsupportimg{
+	display: none !important;
+}
+
+.form-contt {
+    max-width: 0px !important;
+		height: 50px !important;
+	}
+
+	.form-comp .form-label{
+		margin-left: -30px !important;
+	}
+
+	.form-req .form-label {
+    margin-left: -130px !important;
+}
+
+	.form-maila .form-label{
+		margin-left: -50px !important;
+	}
+
+
+	.form-btnreq{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+	.form-namee .form-control {
+    width: 200px !important;
+    margin-left: -20px !important;
+}
+
+.form-namee .form-label {
+    margin-left: -20px !important;
+}
+
+.form-maill .form-control {
+    margin-left: -20px !important;
+}
+
+.form-maill .form-label {
+    margin-left: -20px !important;
+}
+
+.form-msgg .form-label {
+    margin-left: -20px !important;
+}
+
+.form-msgg .form-control {
+    height: 150px !important;
+    width: 220px !important;
+    margin-left: -20px !important;
+}
+
+.form-btnn {
+width: 220px !important;
+margin-left: -30px !important;
+}
+
+.deduktlogoo {
+	width: 100% !important;
+    padding-left: 2px !important;
+    margin-left: 15px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    /*font-size: 24px !important;*/
+		display: none !important;
+	}
+
+	.promotion-logo{
+		display: none !important;
+	}
+
+	.promotion-padding {
+    padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+
+	.about-bg {
+     /*padding-top: 0px !important; */
+    margin-top: -400px !important;
+    margin-bottom: 150px !important; 
+	}
+	.about-img{
+		/*max-width: 500px !important;
+    height: 250px !important;
+    margin-left: 0px !important;
+		padding-bottom: 450px !important;*/
+		background-image: none !important;
+	}
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 340px !important;
+    height: 340px !important;
+		margin-left: 20px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-text h1 {
+    font-size: 22px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 270px !important;
+    height: 330px !important;
+		margin-left: 30px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 30px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-top: 0px !important;
+	}
+
+	.achieve-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.access-text h1{
+  font-size: 26px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 20px !important;
+		padding-top: 20px !important;
+	}
+
+.access-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.start-small h3 {
+		padding-top: 30px !important;
+	}
+
+	.round {
+		margin-left: 120px !important;
+	}
+
+	.support-big {
+    font-size: 24px !important;
+	}
+
+	.support-small {
+    font-size: 10px !important;
+	}
+
+	.support-logo{
+	background-image: none !important;
+	}
+
+	.support-padding {
+    padding-top: 500px !important;
+    padding-bottom: 200px !important;
+		margin-left: 10px !important;
+	}
+
+	.support-text{
+		margin-bottom: 500px !important;
+    margin-left: 0px !important;
+		margin-top: -450px !important;
+	}
+
+.supptfirst{
+font-size: 24px !important;
+font-weight: 600 !important;
+font-family: 'CamptonSemiBold' !important;
+text-align: left !important;
+	}
+
+	.supptsecond{
+		font-size: 12px !important;
+font-weight: 500 !important;
+font-family: 'CamptonMedium' !important;
+text-align: left !important;
+	}
+
+	.followtext{
+font-size: 12px !important;
+	}
+
+	.iconn{
+		width: 16px !important;
+		height: 16px !important;
+	}
+
+	.footertext{
+		font-size: 10px !important;
+	}
+
+	.form-mail .form-control {
+    width: 150px !important;
+		margin-left: 30px !important;
+	}
+
+	.form-mail .form-label {
+		margin-left: 30px !important;
+	}
+
+	.form-name .form-control {
+    width: 125px !important;
+	}
+
+	.form-msg .form-control {
+    width: 220px !important;
+	}
+
+	.form-btn {
+    width: 220px !important;
+    margin-right: 60px !important;
+}
+
+	.form-cont {
+    max-width: 280px !important;
+    margin-right: 0px !important;
+		margin-top: -30px !important;
+		height: 550px !important;
+	}
+}
+
+/*Samsung Galaxy S8+ (360px)*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px){
+.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.round {
+    margin-left: 140px !important;
+}
+
+.form-cont {
+    margin-right: 20px !important;
+		max-width: 330px !important;
+		margin-left: 20px !important;
+ }
+
+ .about-rg {
+    margin-left: 30px !important;
+}
+
+.build-img {
+    margin-left: 30px !important;
+	}
+
+	.build-rg {
+    margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 30px !important;
+}
+
+.achieve-img {
+    max-width: 300px !important;
+    margin-left: 30px !important;
+	}
+
+	.access-rg {
+    margin-left: 30px !important;
+	}
+}
+
+
+
+/*Small devices (375px)*/
+@media only screen
+and (min-device-width: 375px) 
+and (max-device-width: 538px) { 
+	.container .logo {
+    margin-left: 10px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+
+.lenimgg{
+	display: none !important;
+}
+
+.headerround{
+	background-image: none !important;
+}
+
+.lenoimg{
+margin-top: -500px !important;
+margin-bottom: 80px !important;
+}
+
+.policybtn .privibtn {
+    font-size: 10px !important;
+    margin-top: 22px !important;
+    margin-bottom: 0px !important;
+    width: 80% !important; 
+    padding-top: 30px;
+	}
+
+	.privi {
+    padding-top: 70px !important;
+    padding-right: 40px !important;
+    padding-left: 20px !important;
+    margin-right: -70px !important;
+}
+
+/*.privi {
+    padding-top: 70px !important;
+    padding-right: 40px !important;
+    padding-left: 20px !important;
+    margin-right: -70px !important;
+}*/
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.unlock {
+    margin-left: -25px !important;
+    height: 400px !important;
+    width: 300px !important;
+}
+
+.deduktneed{
+	margin-left: 5px !important;
+}
+
+.whybtn {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+    margin-left: 24px !important;
+}
+
+.loanspacing{
+	margin-left: 30px !important;
+}
+
+.getstarted {
+    padding-left: 150px !important;
+    padding-right: 150px !important;
+    margin-bottom: 45px !important;
+    margin-top: 15px !important;
+}
+
+.form-namee .form-control {
+    margin-left: -80px !important;
+	}
+
+	.form-namee .form-label {
+    margin-left: -80px !important;
+}
+
+.form-maill .form-control {
+    margin-left: -80px !important;
+}
+
+.form-maill .form-label {
+    margin-left: -80px !important;
+}
+
+.form-msgg .form-control {
+    margin-left: -80px !important;
+}
+
+.form-msgg .form-label {
+    margin-left: -80px !important;
+}
+
+.form-btnn {
+    margin-left: -90px !important;
+}
+
+.form-comp .form-label{
+		margin-left: -90px !important;
+	}
+
+	.form-req .form-label {
+    margin-left: -190px !important;
+}
+
+	.form-maila .form-label{
+		margin-left: -100px !important;
+	}
+
+
+	.form-btnreq{
+    margin-left: 0px !important;
+    margin-right: 40px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 26px !important;
+	}
+
+	.promotion-logo{
+		display: none !important;
+	}
+
+	.promotion-padding {
+    padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+
+	.about-bg {
+     padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+	.about-img{
+		max-width: 390px !important;
+    height: 390px !important;
+    margin-left: 0px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 340px !important;
+    height: 340px !important;
+		margin-left: 20px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-text h1 {
+    font-size: 22px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 20px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 30px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-top: 0px !important;
+	}
+
+	.achieve-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.access-text h1{
+  font-size: 30px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 20px !important;
+		padding-top: 20px !important;
+	}
+
+.access-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.start-small h3 {
+		padding-top: 30px !important;
+	}
+
+	.round {
+		margin-left: 150px !important;
+	}
+
+	.support-big {
+    font-size: 28px !important;
+	}
+
+	.support-small {
+    font-size: 12px !important;
+	}
+
+	.support-logo{
+	background-image: none !important;
+	}
+
+	.support-padding {
+    padding-top: 500px !important;
+    padding-bottom: 100px !important;
+	}
+
+	.fom-row {
+    margin-top: -60px !important;
+}
+
+.deduktlogoo {
+    width: 100% !important;
+    padding-left: 45px !important;
+    margin-left: 1px !important;
+}
+
+	.support-text{
+		margin-top: -350px !important;
+		margin-left: 20px !important;
+	}
+
+	.form-mail .form-control {
+    width: 150px !important;
+		margin-left: 30px !important;
+	}
+
+	.form-mail .form-label {
+		margin-left: 30px !important;
+	}
+
+	.form-name .form-control {
+    width: 125px !important;
+	}
+
+	.form-msg .form-control {
+    width: 250px !important;
+	}
+
+	.form-btn {
+    width: 250px !important;
+    margin-right: 60px !important;
+}
+
+	.form-cont {
+    max-width: 340px !important;
+    margin-right: 0px !important;
+		margin-top: -30px !important;
+		height: 550px !important;
+	}
+}
+
+/*Iphone XR (375px)*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px){
+.navsmall{
+	margin-top: 100px !important;
+}
+	.herospacing{
+	padding-top: 100px !important;
+}
+
+.countbod{
+	border-top: none !important;
+}
+
+.headerround{
+	margin-bottom: -500px !important;
+}
+
+.headerimg {
+    margin-bottom: 0px !important;
+    margin-top: -200px !important;
+
+	}
+
+	.privibtn{
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+	}
+
+	.deduktneed {
+    margin-left: 30px !important;
+		padding-right: 32px !important;
+	}
+
+	.whybtn {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-left: 9px !important;
+}
+
+.deduktspacingg{
+	padding-top: 160px !important;
+}
+
+.loanspacing {
+    margin-left: -60px !important;
+}
+
+.howtext {
+	  padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-right: 80px !important;
+}
+
+.buildspcing{
+	margin-right: -60px !important;
+}
+
+.achieve-rggg {
+    margin-left: 0px !important;
+    padding-right: 150px !important;
+	margin-top: -90px !important;
+	margin-bottom: -90px !important;
+	}
+
+.valcontt{
+	margin-right: -150px !important;
+}
+
+.partnerspacing{
+	padding-top: 250px !important;
+}
+
+.form-namee .form-control{
+	/*background-clip: linear-gradient(to right, #10008B, #98E2EC) !important;*/
+border-color: #10008B !important;
+width: 250px !important;
+}
+
+.form-maill .form-control {
+	border-color: #10008B !important;
+    width: 250px !important;
+	}
+
+	.form-msgg .form-control {
+    width: 255px !important;
+		border-color: #10008B !important;
+	}
+
+	.form-btnn {
+    width: 250px !important;
+	}
+
+	.iconn{
+		margin-top: 6px !important;
+    margin-left: -12px !important;
+	}
+
+	.form-req .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.reqdemotext{
+	font-size: 16px !important;
+}
+
+.modallbdy{
+	right: -16px !important;
+	top: -94px !important;
+}
+
+.form-req .form-label {
+    margin-left: -220px !important;
+		font-size: 20px !important;
+}
+
+.form-comp .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.form-comp .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-maila .form-control {
+    width: 300px !important;
+    margin-left: 18px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-btnreq {
+    width: 300px !important;
+		margin-left: 0px !important;
+		margin-right: -9px !important;
+	}
+
+}
+/*Iphone 12 Pro (390px)*/
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px){
+
+	.navsmall{
+	margin-top: 100px !important;
+}
+	.herospacing{
+	padding-top: 100px !important;
+}
+
+.countbod{
+	border-top: none !important;
+}
+
+.headerround{
+	margin-bottom: -500px !important;
+}
+
+.headerimg {
+    margin-bottom: 0px !important;
+    margin-top: -200px !important;
+
+	}
+
+	.privibtn{
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+	}
+
+	.deduktneed {
+    margin-left: 30px !important;
+		padding-right: 32px !important;
+	}
+
+	.whybtn {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-left: 9px !important;
+}
+
+.deduktspacingg{
+	padding-top: 160px !important;
+}
+
+.loanspacing {
+    margin-left: -60px !important;
+}
+
+.howtext {
+	  padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-right: 80px !important;
+}
+
+.buildspcing{
+	margin-right: -60px !important;
+}
+
+.achieve-rggg {
+    margin-left: 0px !important;
+    padding-right: 150px !important;
+	margin-top: -90px !important;
+	margin-bottom: -90px !important;
+	}
+
+.valcontt{
+	margin-right: -150px !important;
+}
+
+.partnerspacing{
+	padding-top: 250px !important;
+}
+
+.form-namee .form-control{
+	/*background-clip: linear-gradient(to right, #10008B, #98E2EC) !important;*/
+border-color: #10008B !important;
+width: 250px !important;
+}
+
+.form-maill .form-control {
+	border-color: #10008B !important;
+    width: 250px !important;
+	}
+
+	.form-msgg .form-control {
+    width: 255px !important;
+		border-color: #10008B !important;
+	}
+
+	.form-btnn {
+    width: 250px !important;
+	}
+
+	.iconn{
+		margin-top: 6px !important;
+    margin-left: -12px !important;
+	}
+
+	.form-req .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.reqdemotext{
+	font-size: 16px !important;
+}
+
+.modallbdy{
+	right: -24px !important;
+	top: -94px !important;
+}
+
+.form-req .form-label {
+    margin-left: -220px !important;
+		font-size: 20px !important;
+}
+
+.form-comp .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.form-comp .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-maila .form-control {
+    width: 300px !important;
+    margin-left: 18px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-btnreq {
+    width: 300px !important;
+		margin-left: 0px !important;
+		margin-right: -9px !important;
+	}
+
+
+.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.round {
+    margin-left: 160px !important;
+}
+
+.form-cont {
+    margin-right: 20px !important;
+		max-width: 330px !important;
+		margin-left: 20px !important;
+ }
+
+ .about-rg {
+    margin-left: 30px !important;
+}
+
+.build-img {
+    margin-left: 30px !important;
+	}
+
+	.build-rg {
+    margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 30px !important;
+}
+
+.achieve-img {
+    max-width: 300px !important;
+    margin-left: 30px !important;
+	}
+
+	.access-rg {
+    margin-left: 30px !important;
+	}
+}
+
+/*Pixel 5 (393px)*/
+@media only screen and (min-device-width: 393px) and (max-device-width: 851px){
+.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.round {
+    margin-left: 160px !important;
+}
+
+.form-cont {
+    margin-right: 20px !important;
+		max-width: 330px !important;
+		margin-left: 20px !important;
+ }
+
+ .about-rg {
+    margin-left: 30px !important;
+}
+
+.build-img {
+    margin-left: 30px !important;
+	}
+
+	.build-rg {
+    margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 30px !important;
+}
+
+.achieve-img {
+    max-width: 300px !important;
+    margin-left: 30px !important;
+	}
+
+	.access-rg {
+    margin-left: 30px !important;
+	}
+}
+
+/*Samsung A51/71 (914px)*/
+@media only screen and (min-device-width: 412px) and (max-device-width: 914px){
+.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.round {
+    margin-left: 170px !important;
+}
+
+.form-cont {
+    margin-right: 25px !important;
+ }
+
+}
+
+/*Iphone XR (414px)*/
+@media only screen and (min-device-width: 414px) and (max-device-width: 896px){
+.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.herospacing {
+    padding-top: 100px !important;
+		padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.deduktspacingg {
+    padding-top: 160px !important;
+}
+
+	.howtext {
+    padding-left: 0px !important;
+    padding-right: 20px !important;
+    margin-right: 100px !important;
+}
+
+	.deduktneed{
+		padding-left: 10px !important;
+	}
+
+	.unlockgrid {
+    padding-left: 0px !important;
+    padding-right: 2px !important;
+    align-content: center !important;
+    text-align: center !important;
+}
+
+.unlockmargin {
+    margin-right: 0px !important;
+}
+
+.valheading{
+	margin-left: 0px !important;
+}
+
+.form-contt{
+	margin-right: 280px !important;
+}
+
+	.loanspacing {
+    margin-left: -60px !important;
+		padding-top: 20px !important;
+		padding-bottom: 10px !important;
+	}
+
+
+
+	.navsmall{
+	margin-top: 100px !important;
+}
+
+.countbod{
+	border-top: none !important;
+}
+
+.headerround{
+	margin-bottom: -500px !important;
+}
+
+.headerimg {
+    margin-bottom: 0px !important;
+    margin-top: -200px !important;
+
+	}
+
+	.privibtn{
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+	}
+	.whybtn {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-left: 9px !important;
+}
+
+.loanspacing {
+    margin-left: -60px !important;
+}
+
+.buildspcing{
+	margin-right: -60px !important;
+}
+
+.achieve-rggg {
+    margin-left: 0px !important;
+    padding-right: 150px !important;
+	margin-top: -90px !important;
+	margin-bottom: -90px !important;
+	}
+
+.valcontt{
+	margin-right: -150px !important;
+}
+
+.partnerspacing{
+	padding-top: 250px !important;
+}
+
+.form-namee .form-control{
+	/*background-clip: linear-gradient(to right, #10008B, #98E2EC) !important;*/
+border-color: #10008B !important;
+width: 250px !important;
+}
+
+.form-maill .form-control {
+	border-color: #10008B !important;
+    width: 250px !important;
+	}
+
+	.form-msgg .form-control {
+    width: 255px !important;
+		border-color: #10008B !important;
+	}
+
+	.form-btnn {
+    width: 250px !important;
+	}
+
+	.iconn{
+		margin-top: 6px !important;
+    margin-left: -12px !important;
+	}
+
+	.form-req .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.reqdemotext{
+	font-size: 16px !important;
+}
+
+.modallbdy{
+	right: -36px !important;
+	top: -96px !important;
+}
+
+.form-req .form-label {
+    margin-left: -220px !important;
+}
+
+.form-comp .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.form-comp .form-label {
+    margin-left: -120px !important;
+}
+
+.form-maila .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -120px !important;
+}
+
+.form-btnreq {
+    width: 300px !important;
+		margin-left: 0px !important;
+		margin-right: -9px !important;
+	}
+
+
+
+	.round {
+    margin-left: 170px !important;
+}
+
+.form-cont {
+    margin-right: 20px !important;
+		max-width: 350px !important;
+ }
+
+ /*.about-rg {
+    margin-left: 80px !important;
+}*/
+
+.build-img {
+    margin-left: 30px !important;
+	}
+
+	/*.build-rg {
+    margin-left: 60px !important;
+	}*/
+
+	.achieve-rg {
+    margin-left: 30px !important;
+}
+
+.achieve-img {
+    max-width: 360px !important;
+    margin-left: 30px !important;
+	}
+
+	.access-rg {
+    margin-left: 30px !important;
+	}
+}
+
+/*Small devices (425px)*/
+@media only screen
+and (min-device-width: 425px) 
+and (max-device-width: 538px) { 
+	.container .logo {
+    margin-left: 10px !important;
+}
+
+.unlockpaad{
+padding-top: 64px !important;
+}
+
+.unlock {
+    margin-left: -1px !important;
+	}
+
+	.deduktneed {
+    margin-left: 10px !important;
+}
+
+.howtextfirst {
+    padding-right: 110px !important;
+}
+
+.howtextsecond {
+    padding-right: 0px !important;
+    margin-left: -16px !important;
+}
+
+.form-comp .form-label{
+		margin-left: -50px !important;
+	}
+
+	.form-comp .form-control {
+    margin-left: 70px !important;
+}
+
+.form-req .form-control {
+    margin-left: 70px !important;
+}
+
+.form-maila .form-control {
+    margin-left: 70px !important;
+}
+
+	.form-req .form-label {
+    margin-left: -140px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -50px !important;
+}
+
+
+	.form-btnreq{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.form-namee .form-label {
+    margin-left: -30px !important;
+} 
+
+.form-namee .form-control {
+    margin-left: -30px !important;
+} 
+
+.form-maill .form-label {
+    margin-left: -30px !important;
+}
+
+.form-maill .form-control {
+    margin-left: -30px !important;
+}
+
+.form-msgg .form-label {
+    margin-left: -30px !important;
+}
+
+.form-msgg .form-control {
+    margin-left: -30px !important;
+} 
+
+.form-btnn {
+    margin-left: -40px !important;
+}
+
+.logospacing{
+	padding-right: 80px !important;
+}
+
+.headerround{
+	width: 400px !important;
+	height: 400px !important;
+	margin-top: -380px !important;
+	padding-left: 30px !important;
+}
+
+.privibtn {
+    font-size: 14px !important;
+    margin-top: 80px !important;
+    margin-bottom: 40px !important;
+    width: 55% !important;
+	}
+
+.accesssbtn{
+		background-image: linear-gradient(to right, #F5F5F5, #FFFFFF) !important;
+color: #10008B !important;
+	}
+
+	.accessfirstt {
+  margin-bottom: 40px !important;
+	}
+
+	.accesssecondd {
+		margin-bottom: 40px !important;
+	}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.getstarted {
+    padding-left: 166px !important;
+    padding-right: 156px !important;
+	}
+
+	.whoheading {
+    padding-left: 60px !important;
+}
+
+.valuespacing {
+    padding-left: 70px !important;
+}
+
+.valuetext {
+    padding-left: 70px !important;
+}
+
+.growingthree {
+    margin-left: 220px !important;
+	}
+
+	.growingone {
+    margin-left: 170px !important;
+}
+
+.form-contt {
+    margin-right: 350px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 30px !important;
+	}
+
+	.promotion-logo{
+		display: none !important;
+	}
+
+	.promotion-padding {
+    padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+
+	.about-bg {
+     padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+	.about-img{
+		max-width: 390px !important;
+    height: 390px !important;
+    margin-left: 0px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 390px !important;
+    height: 390px !important;
+		margin-left: 20px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-text h1 {
+    font-size: 22px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 40px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 30px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-top: 0px !important;
+	}
+
+	.achieve-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.access-text h1{
+  font-size: 30px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 20px !important;
+		padding-top: 20px !important;
+	}
+
+.access-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 180px !important;
+	}
+
+	.support-big {
+    font-size: 30px !important;
+	}
+
+	.support-small {
+    font-size: 14px !important;
+	}
+
+	.support-logo{
+	background-image: none !important;
+	}
+
+	.support-padding {
+    padding-top: 500px !important;
+    padding-bottom: 200px !important;
+}
+
+	.support-text{
+		margin-top: -350px !important;
+		margin-left: 25px !important;
+	}
+
+	.form-mail .form-control {
+    width: 150px !important;
+		margin-left: 30px !important;
+	}
+
+	.form-mail .form-label {
+		margin-left: 30px !important;
+	}
+
+	.form-name .form-control {
+    width: 125px !important;
+	}
+
+	.form-msg .form-control {
+    width: 250px !important;
+	}
+
+	.form-btn {
+    width: 250px !important;
+    margin-right: 60px !important;
+}
+
+	.form-cont {
+    max-width: 350px !important;
+		margin-right: 20px !important;
+		margin-top: -30px !important;
+		height: 550px !important;
+	}
+	
+	.deduktlogoo {
+    width: 60% !important;
+    padding-left: 1px !important;
+    margin-right: 25px !important;
+}
+
+}
+
+/*Large devices (768px)*/
+@media only screen
+and (min-device-width: 538px) 
+and (max-device-width: 768px) { 
+	.container .logo {
+    margin-left: 10px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.herooimg{
+		margin-top: 16px !important;
+	}
+
+	.navsizing{
+font-size: 8px !important;
+line-height: 16px !important;
+}
+
+.whyabt{
+	display: none !important;
+}
+
+.navbutn{
+white-space: nowrap !important;
+}
+
+.lennav{
+font-size: 8px !important;
+}
+
+.headerr{
+	padding-right: 180px !important;
+    margin-left: 550px !important;
+		margin-top: -800px !important;
+		background-image: none !important;
+}
+
+.privvi{
+	margin-right: 50px !important;
+    margin-left: 50px !important;
+}
+
+.privipolicy{
+	padding-left: 140px !important;
+    padding-top: 150px !important;
+}
+
+.accessb{
+	margin-left: 80px !important;
+  margin-top: 60px !important;
+}
+
+.startedbtn{
+	font-size: 16px !important;
+}
+
+.accessround {
+    margin-left: 128px !important;
+	}
+
+.lenn{
+	display: none !important;
+}
+
+.achievetv{
+	padding-left: 1px !important;
+}
+
+.valuess{
+	padding-left: 40px !important;
+}
+
+.growingo{
+	margin-right: 350px !important;
+}
+
+.growingtw{
+	margin-left: 26rem !important;
+}
+
+.growingth{
+	margin-right: -15rem !important;
+    margin-top: -8rem !important;
+}
+
+.deduktneed{
+	margin-left: 40px !important;
+}
+
+.whybtn {
+    margin-left: 18px !important;
+}
+
+.getstarted{
+padding-left: 4rem !important;
+padding-right: 4rem !important;
+}
+
+.whoimg{
+	display: none !important;
+}
+
+.whoheading{
+	padding-left: 40px !important;
+}
+
+.valheading {
+	padding-left: 40px !important;
+}
+
+.growingthree{
+	margin-right: -5rem !important;
+}
+
+.growingfour{
+	display: none !important;
+}
+
+.growingone{
+	margin-right: 300px !important;
+}
+
+.reqdemobtn{
+	padding-left: 16rem !important;
+	padding-right: 16rem !important;
+}
+
+ .formfill .form-contt {
+    max-width: 270px !important;
+		margin-right: 10px !important;
+	}
+
+.form-namee .form-control {
+    width: 100px !important;
+}
+
+.form-maill .form-control {
+    width: 110px !important;
+	}
+
+	.form-msgg .form-control {
+    height: 150px !important;
+    width: 230px !important;
+	}
+
+	.form-btnn {
+    width: 230px !important;
+	}
+
+	.deduktt {
+    padding-right: 250px !important;
+    margin-left: 30px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -140px !important;
+}
+
+.head-padding{
+	margin-left: 60px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 30px !important;
+	}
+
+	.promotion-logo{
+		padding-top: 40px !important;
+	}
+
+	.promotion-padding {
+    padding-bottom: 65px !important;
+	}
+
+	.about-img{
+		max-width: 390px !important;
+    height: 390px !important;
+    margin-left: 0px !important;
+		padding-bottom: 800px !important;
+	}
+
+	.about-rg {
+			margin-left: 70px !important;
+	}
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 390px !important;
+    height: 390px !important;
+		margin-left: 20px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-text h1 {
+    font-size: 22px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 22px !important;
+	}
+
+	.achieve-text p {
+    font-size: 13px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 30px !important;
+	}
+
+	.access-text h1{
+  font-size: 20px !important;
+}
+
+.access-text p {
+    font-size: 13px !important;
+	}
+
+.access-rg {
+    margin-left: 20px !important;
+		padding-top: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 80px !important;
+	}
+
+	.support-big {
+    font-size: 24px !important;
+	}
+
+	.support-small {
+    font-size: 12px !important;
+	}
+
+	.form-mail .form-control {
+    width: 150px !important;
+	}
+
+	.form-name .form-control {
+    width: 125px !important;
+	}
+
+	.form-msg .form-control {
+    width: 300px !important;
+	}
+
+	.form-btn {
+    width: 300px !important;
+	}
+
+	.form-cont {
+    max-width: 350px !important;
+		margin-right: 20px !important;
+	}
+
+	.formfilll .form-contt {
+    margin-right: 0px !important;
+    max-width: 280px !important;
+}
+}
+
+/*Large devices (1024px)*/
+@media only screen
+and (min-device-width: 538px) 
+and (max-device-width: 1024px) { 
+	.container .logo {
+    margin-left: -35px !important;
+		margin-top: -20px !important;
+}
+
+/*.heroimg{
+	padding-bottom: 220px !important;
+}
+
+.abtpadding{
+padding-left: 0.25rem !important;
+padding-right: 0.25rem !important;
+padding-top: 0.5rem !important;
+padding-bottom: 0.5rem !important;
+}*/
+
+/*.navbutn{
+    white-space: nowrap !important;
+}*/
+
+.aboutt {
+    width: 460px !important;
+    height: 664px !important;
+		margin-left: 2rem !important;
+		margin-top: 16rem !important;
+}
+
+.loanspacing{
+	padding-bottom: 2rem !important;
+}
+
+.whybtn{
+	padding-left: 8rem !important;
+	padding-right: 8rem !important;
+}
+
+.howtextfirst{
+	padding-right: 1rem !important;
+}
+
+.whobtn{
+	padding-left: 9rem !important;
+	padding-right: 9rem !important;
+}
+
+.whoimg {
+	margin-left: 10px !important;
+}
+
+.howtextsecond{
+	padding-right: 0rem !important;
+}
+
+.unlock{
+	margin-left: -2rem !important;
+    margin-right: -2rem !important;
+}
+
+.form-contt {
+    margin-right: 32px !important;
+    max-width: 500px !important;
+	}
+
+	.deduktlogoo{
+    padding-right: 80px !important;
+    margin-left: 40px !important;
+	}
+
+	.navspacing{
+		margin-right: 25px !important;
+    line-height: 2px !important;
+    white-space: nowrap !important;
+		margin-left: 15px !important;
+	}
+
+
+.promotion-logo{
+		margin-left: -100px !important;
+}
+	.btn-sign{
+margin-top: -8px !important;
+	}
+
+.get-started {
+   margin-left: 0px !important;
+   margin-top: 0px !important;
+}
+.head-padding{
+	margin-left: 60px !important;
+}
+
+.big-text {
+    font-size: 30px !important;
+	}
+
+	.about-text h1 {
+    font-size: 30px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-text h1 {
+    font-size: 30px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 483px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 30px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 510px !important;
+		margin-left: 30px !important;
+	}
+
+	.access-text h1{
+font-size: 28px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 40px !important;
+		padding-top: 50px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 110px !important;
+	}
+
+	.form-cont {
+    margin-right: 30px !important;
+}
+
+}
+
+
+/*Surface Duo (720px)*/
+@media only screen
+and (min-device-width: 540px) 
+and (max-device-width: 720px) { 
+	.container .logo {
+    margin-left: 10px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 26px !important;
+	}
+
+	.promotion-logo{
+		padding-top: 40px !important;
+	}
+
+	.promotion-padding {
+    padding-bottom: 65px !important;
+	}
+
+	.about-img{
+		max-width: 390px !important;
+    height: 390px !important;
+    margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.about-rg {
+    margin-left: 60px !important;
+	}
+
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 390px !important;
+    height: 390px !important;
+		margin-left: 60px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-rg {
+    margin-left: 60px !important;
+}
+
+	.build-text h1 {
+    font-size: 28px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 60px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 28px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 60px !important;
+	}
+
+	.access-text h1{
+  font-size: 28px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 60px !important;
+		padding-top: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 240px !important;
+	}
+
+	.support-big {
+    font-size: 28px !important;
+	}
+
+	.support-small {
+    font-size: 15px !important;
+	}
+
+	.form-mail .form-control {
+    width: 150px !important;
+	}
+
+	.form-name .form-control {
+    width: 125px !important;
+	}
+
+	.form-msg .form-control {
+    width: 300px !important;
+	}
+
+	.form-btn {
+    width: 300px !important;
+	}
+
+	.form-cont {
+    max-width: 450px !important;
+		margin-right: 40px !important;
+	}
+}
+
+/*NestHub (1024px)*/
+@media only screen
+and (min-device-width: 600px) 
+and (max-device-width: 1024px) { 
+	.container .logo {
+    margin-left: 0px !important;
+}
+
+.promotion-logo {
+    padding-left: -140px !important;
+	}
+
+	.about-rg {
+    margin-left: 180px !important;
+}
+
+}
+
+/*Ipad Mini (1024px)*/
+@media only screen
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) { 
+	.container .logo {
+    margin-left: 0px !important;
+}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 60px !important;
+}
+
+.big-text {
+    font-size: 30px !important;
+	}
+
+	.about-text h1 {
+    font-size: 30px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-text h1 {
+    font-size: 30px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 390px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 30px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		margin-left: 30px !important;
+	}
+
+	.access-text h1{
+font-size: 28px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 40px !important;
+		padding-top: 50px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 80px !important;
+	}
+
+}
+
+
+/*NestHub max (1280px)*/
+@media only screen
+and (min-device-width: 800px) 
+and (max-device-width: 1280px) { 
+	.container .logo {
+    margin-left: -20px !important;
+}
+
+.navpositioning{
+	padding-right: 18px !important;
+	padding-left: 0px !important;
+}
+
+.deduktneed{
+		margin-left: 20px !important;
+		padding-right: 50px !important;
+	}
+
+	.whybtn{
+		padding-right: 155px !important;
+    padding-left: 155px !important;
+	}
+
+	.whyabt{
+		margin-top: 100px !important;
+	}
+
+	.whoheading{
+		margin-right: 0px !important;
+    padding-right: 60px !important;
+    margin-left: -40px !important;
+    margin-top: -90px !important;
+	}
+
+	.whopadding{
+		padding-top: 150px !important;
+    padding-bottom: 150px !important;
+    padding-right: 200px !important;
+    padding-left: 200px !important;
+		width: 1512px !important;
+    height: 982px !important;
+	}
+
+	.whoimg{
+		width: 591px !important;
+    height: 553px !important;
+		margin-left: -120px !important;
+		margin-bottom: 100px !important;
+	}
+
+	.form-contt{
+		margin-right: 160px !important;
+    margin-top: -470px !important;
+	}
+
+	.whobtn{
+		padding-right: 120px !important;
+    padding-left: 120px !important;
+	}
+
+	.support-padding{
+		margin-left: 60px !important;
+	}
+
+	.achieveround{
+		padding-left: 120px !important;
+    padding-right: 0px !important;
+	}
+
+	.access-rgg {
+    margin-left: 30px !important;
+    padding-left: 0px !important;
+    margin-top: 20px !important;
+	}
+
+	.accessbod{
+		padding-left: 90px !important;
+	}
+
+	.accessround {
+    padding-right: 90px !important;
+    padding-left: 40px !important;
+	}
+
+	.achieve-rggg{
+		margin-left: 40px !important;
+    padding-left: 50px !important;
+    margin-top: 20px !important;
+	}
+
+.promotion-logo {
+    margin-left: -100px !important;
+	}
+}
+
+/*Ipad Air (1180px)*/
+@media only screen
+and (min-device-width: 820px) 
+and (max-device-width: 1180px) { 
+	.container .logo {
+    margin-left: 0px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 140px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 60px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 26px !important;
+	}
+
+	.promotion-padding {
+    padding-bottom: 65px !important;
+	}
+
+	.about-img{
+		max-width: 360px !important;
+    height: 390px !important;
+    margin-left: 0px !important;
+		padding-bottom: 800px !important;
+	}
+
+	.about-rg {
+    margin-left: 180px !important;
+	}
+
+	.about-bg {
+    padding-top: 125px !important;
+    padding-bottom: 125px !important;
+	}
+
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 360px !important;
+    height: 390px !important;
+		margin-left: 60px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-rg {
+    margin-left: 80px !important;
+}
+
+	.build-text h1 {
+    font-size: 28px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 60px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 28px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 330px !important;
+		height: 380px !important;
+		margin-left: 60px !important;
+	}
+
+	.access-text h1{
+  font-size: 28px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 60px !important;
+		padding-top: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 90px !important;
+	}
+
+	.support-big {
+    font-size: 28px !important;
+	}
+
+	.support-small {
+    font-size: 15px !important;
+	}
+
+	.form-mail .form-control {
+    width: 100px !important;
+	}
+
+	.form-name .form-control {
+    width: 100px !important;
+	}
+
+	.form-msg .form-control {
+    width: 240px !important;
+	}
+
+	.form-btn {
+    width: 240px !important;
+	}
+
+	.form-cont {
+    max-width: 290px !important;
+		margin-right: 0px !important;
+	}
+
+}
+
+
+/* For surface Duo(1368px)*/
+@media only screen
+and (min-device-width: 912px) 
+and (max-device-width: 1368px) { 
+	.container .logo {
+    margin-left: -70px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -10px !important;
+		padding-top: 40px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 26px !important;
+	}
+
+	.promotion-padding {
+    padding-bottom: 65px !important;
+	}
+
+	.about-img{
+		max-width: 360px !important;
+    height: 390px !important;
+    margin-left: 60px !important;
+		padding-bottom: 750px !important;
+	}
+
+	.about-rg {
+    margin-left: 280px !important;
+	}
+
+	.about-bg {
+    padding-top: 125px !important;
+    padding-bottom: 125px !important;
+	}
+
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 360px !important;
+    height: 390px !important;
+		margin-left: 60px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-rg {
+    margin-left: 60px !important;
+}
+
+	.build-text h1 {
+    font-size: 28px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 60px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 28px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 330px !important;
+		/*height: 380px !important;*/
+		margin-left: 60px !important;
+	}
+
+	.access-text h1{
+  font-size: 28px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 60px !important;
+		padding-top: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 90px !important;
+	}
+
+	.support-big {
+    font-size: 28px !important;
+	}
+
+	.support-small {
+    font-size: 15px !important;
+	}
+
+	.form-mail .form-control {
+    width: 100px !important;
+	}
+
+	.form-name .form-control {
+    width: 100px !important;
+	}
+
+	.form-msg .form-control {
+    width: 240px !important;
+	}
+
+	.form-btn {
+    width: 240px !important;
+	}
+
+	.form-cont {
+    max-width: 290px !important;
+		margin-right: 0px !important;
+	}
+
+}
+
+/*Large devices (1024px)*/
+@media only screen
+and (min-device-width: 1024px) 
+and (max-device-width: 1156px) { 
+.heroimg{
+	padding-bottom: 220px !important;
+}
+
+.abtpadding{
+padding-left: 0.25rem !important;
+padding-right: 0.25rem !important;
+}
+
+.navbutn{
+    white-space: nowrap !important;
+		    /*margin-right: 130px !important;*/
+}
+
+.lennav{
+	font-size: 11px !important;
+    line-height: 16px !important;
+}
+
+.headerround{
+	background-image: none !important;
+}
+
+.lenimgg{
+	padding-bottom: 260px !important;
+	width: 100% !important;
+	margin-left: -40px !important;
+}
+
+.accessround {
+    margin-left: 150px !important;
+
+}
+
+.achieve-rggg{
+	margin-right: 20px !important;
+    padding-left: 60px !important;
+}
+}
+
+/*4k devices (2560)*/
+@media only screen
+and (min-device-width: 1600px) 
+and (max-device-width: 2560px) { 
+
+	.heroo{
+		margin-top: 150px !important;
+	}
+
+	.heropading{
+		margin-right: 40px !important;
+	}
+
+	.herospacing{
+		padding-top: 50px !important;
+	}
+
+	.headerimg{
+		margin-right: 150px !important;
+	}
+
+	.navpositioning{
+		padding-left: 170px !important;
+	}
+
+	.navspacing{
+		margin-left: 450px !important;
+	}
+
+	.whyabt{
+		margin-left: 700px !important;
+	}
+
+	.deduktneed{
+		margin-left: 64px !important;
+		padding-right: 500px !important;
+	}
+
+	.starteddbtn{
+		margin-top: 3.5rem !important;
+	}
+
+	.unlockwidthh{
+		width: 1430px !important;
+	}
+
+	.deduktspacingg{
+		padding-top: 356px !important;
+	}
+
+	.loanspacing{
+		padding-left: 50px !important;
+    margin-right: 90px !important;
+		padding-top: 46px !important;
+		padding-bottom: 46px !important;
+		margin-bottom: 10px !important;
+	}
+
+	.studywidthh{
+width: 1430px !important;
+height: 799px !important;
+	}
+
+	.studyimg{
+		width: 600px !important;
+		height: 706px !important;
+		margin-top: -80px !important;
+	}
+
+	.howtext{
+		padding-right: 7rem !important;
+	}
+
+	.howtextfirst{
+		padding-right: 13rem !important;
+	}
+
+	.getstartedd{
+		margin-left: 650px !important;
+    margin-right: 500px !important;
+	}
+
+	.whoheading{
+		margin-right: 370px !important;
+    padding-right: 80px !important;
+    margin-left: -50px !important;
+	}
+
+	.whoimg{
+		margin-right: -150px !important;
+	}
+
+	.buildspcing{
+		margin-left: 420px !important;
+	}
+
+	.valheading{
+		margin-right: 490px !important;
+    padding-right: 80px !important;
+    margin-left: 0px !important;
+	}
+	
+	.abtimg{
+	margin-left: 500px !important;
+	}
+
+	.form-contt{
+		margin-right: 560px !important;
+		margin-top: -475px !important;
+	}
+
+	.getsupportimg{
+		width: 1440px !important;
+	}
+
+	.support-padding {
+    padding-top: 250px !important;
+    padding-bottom: 150px !important;
+    margin-left: 250px !important;
+}
+
+.deduktlogoo{
+	width: 399px !important;
+}
+
+.lenimgg{
+	width: 65% !important;
+}
+
+.achieveround{
+	margin-left: -515px !important;
+	padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.achieve-rggg{
+	padding-left: 160px !important;
+    padding-right: 160px !important;
+}
+
+.access-rgg {
+    margin-left: 500px !important;
+}
+
+.privispacingg{
+	margin-right: -800px !important;
+}
+
+.accessround{
+	padding-left: 200px !important;
+	margin-left: 300px !important;
+	padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.acessspacing{
+	margin-right: -768px;
+}
+
+}
+/*--------------------------MEDIA QUERIES ENDS------------*/
+
+
+/*max-width: var(--max-width,1248px);
+    margin: 0px auto;
+    padding-left: 20px;
+    padding-right: 20px;*/

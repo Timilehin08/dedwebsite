@@ -1,0 +1,51 @@
+module.exports = {
+  content: ['./src/**/*.{html,js}'],
+  theme: {
+    colors: {
+      transparent: 'transparent',
+      current: 'currentColor',
+      'dedukt-blue': '#10008B',
+      'dedukt-sk': '#98E2EC',
+			'dedukt-blu': '#FFFFFF',
+      'dedukt-bl': '#10008B 12.96%',
+      'dedukt-br': '#98E2EC 86.4%',
+      'dedukt-sky': '#00B7D0',
+      'dedukt-light': '#00B7D026',
+      'dedukt-gl': '#10008B1A',
+      'dedukt-gr': '#98E2EC1A',
+      'gray': '#828282',
+      'black': '#000000',
+      'grey': '#333333',
+      'sky': '#00B7D04D',
+      'grayy': '#3E3E3F',
+			'blue': '#140740',
+    },
+
+    fontFamily: {
+      'CircularStd-Book': ['CircularStd-Book'],
+      'CamptonBold': ['CamptonBold'],
+      'CamptonSemiBold': ['CamptonSemiBold'],
+      'CamptonLight': ['CamptonLight'],
+      'CamptonMedium': ['CamptonMedium'],
+      'CamptonBook': ['CamptonBook'],
+      'CircularStd-Black': ['CircularStd-Black'],
+      'CircularStd-BlackItalic': ['CircularStd-BlackItalic'],
+      'CircularStd-Bold': ['CircularStd-Bold'],
+      'CircularStd-BoldItalic': ['CircularStd-BoldItalic'],
+      'CircularStd-BookItalic': ['CircularStd-BookItalic'],
+      'CircularStd-Light-Italic': ['CircularStd-Light-Italic'],
+      'CircularStd-Light': ['CircularStd-Light'],
+      'CircularStd-Medium': ['CircularStd-Medium'],
+      'CircularStd-MediumItalic': ['CircularStd-MediumItalic'],
+    },
+  },
+  plugins: [require('@tailwindcss/forms')],
+  extend: {
+    width: {
+      120: '30.688rem',
+    },
+    height: {
+      150: '38.375rem',
+    },
+  },
+};
