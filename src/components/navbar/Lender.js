@@ -3,7 +3,6 @@ import { Modal, ModalBody, ModalFooter } from 'reactstrap';
 import logo from '../../assets/dedukt logo.svg';
 import logoo from '../../assets/deduktlogoo.svg';
 import deduktheader from '../../assets/deduktheader.svg';
-import support from '../../assets/supportimg.png';
 import logo1 from '../../assets/logo1.svg';
 import logo2 from '../../assets/logo2.svg';
 import logo3 from '../../assets/logo3.svg';
@@ -14,7 +13,7 @@ import buildd from '../../assets/buildd.svg';
 import privicon from '../../assets/privacyicon.png';
 import linkedin from '../../assets/LinkedIn.svg';
 import Deduktabout from '../../assets/Deduktabout.svg';
-import CountUp from 'react-countup';
+//import CountUp from 'react-countup';
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link } from 'react-router-dom';
@@ -29,10 +28,10 @@ const Lender = () => {
   const [reqDemoModal, setReqDemoModal] = useState(false);
   const [privacyDemoModal, setPrivacyDemoModal] = useState(false);
   const [readMore, setReadMore] = useState(false);
-		const [disable, setDisable] = useState(false);
-    const [favorite, setFavorite] = useState(false);
+		//const [disable, setDisable] = useState(false);
+    //const [favorite, setFavorite] = useState(false);
     const [stats, setStats] = useState(false);
-    const [btnClass, setBtnClass] = useState(false);
+    //const [btnClass, setBtnClass] = useState(false);
     const [btnColor, setBtnColor] = useState('red');
   const [employees, setEmployees] = useState(0);
   const [lenders, setLender] = useState(0);
@@ -198,7 +197,7 @@ const Lender = () => {
                   onClick={() => {
                     setStats(true);
                   }}
-                  style={{ backgroundClipText: stats == true ? 'black' : '' }}
+                  style={{ backgroundClipText: stats === true ? 'black' : '' }}
                   className='text-transparent bg-clip-text navsizing  bg-gradient-to-r from-dedukt-bl to-dedukt-br
 											 lg:px-1 px-8 py-3 md:px-1 
 											rounded-md text-base font-medium xs:hidden font-CamptonMedium len'>
@@ -566,7 +565,7 @@ const Lender = () => {
               <div class='mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl'></div>
               <div class='pr-32 pl-32 getstarted'>
                 <ol
-                  role='list'
+                  role='lis'
                   class='space-y-4 md:flex md:space-y-0 md:space-x-8 getstartedd'>
                   <li class='md:flex-1 relative' data-aos='fade-left'>
                     <p class='text-lg startedfirst font-bold text-black font-CamptonBold'>
@@ -846,7 +845,7 @@ const Lender = () => {
           </div>
           {/*======================= GROWING LIST ENDS ========================= */}
           {/* ==========================GET SUPPORT STARTS ============================= */}
-          <div id='support'>
+          <div id='support' className='holdContainer'>
             <div className='support-padding'>
               <div className='container'>
                 <div className='support-text'>
@@ -859,75 +858,68 @@ const Lender = () => {
                     you as soon as possible
                   </p>
                 </div>
-                <div>
-                  <img
-                    alt='support'
-                    src={support}
-                    className='img-fluid getsupportimg img-responsive d-flex'
-                  />
-                  <div className='pb-5 formfill'>
-                    <form
-                      className='form-contt shadow-md pt-2 justify-content-center'
-                      data-aos='fade-up'
-                      onSubmit={sendEmail}>
-                      <div className='row fom-row'>
-                        <div className='col-md-6 mt-4 form-text form-namee'>
-                          <label className='form-label font-CamptonMedium text-sm text-grey font-medium'>
-                            Full Name
-                          </label>
-                          <input
-                            required
-                            value={messageData.name}
-                            onChange={(e) =>
-                              messageOnchange('name', e.target.value)
-                            }
-                            className='form-control border border-gradient-to-r from-dedukt-blue to-dedukt-sk rounded'
-                            placeholder=''
-                          />
-                        </div>
-                        <div className='col-md-6 mb-4 mt-4 form-text form-maill'>
-                          <label className='form-label font-CamptonMedium text-sm text-grey font-medium'>
-                            Email Address
-                          </label>
-                          <input
-                            required
-                            type='email'
-                            value={messageData.email}
-                            onChange={(e) =>
-                              messageOnchange('email', e.target.value)
-                            }
-                            className='form-control border border-gradient-to-r from-dedukt-blue to-dedukt-sk rounded'
-                            placeholder=''
-                          />
-                        </div>
+                <div className='support-logo'>
+                  <form
+                    className='form-contt shadow-md pt-2 justify-content-center'
+                    data-aos='fade-up'
+                    onSubmit={sendEmail}>
+                    <div className='row fom-row'>
+                      <div className='col-md-6 mt-4 form-text form-namee'>
+                        <label className='form-label font-CamptonMedium text-sm text-grey font-medium'>
+                          Full Name
+                        </label>
+                        <input
+                          required
+                          value={messageData.name}
+                          onChange={(e) =>
+                            messageOnchange('name', e.target.value)
+                          }
+                          className='form-control border border-gradient-to-r from-dedukt-blue to-dedukt-sk rounded'
+                          placeholder=''
+                        />
+                      </div>
+                      <div className='col-md-6 mb-4 mt-4 form-text form-maill'>
+                        <label className='form-label font-CamptonMedium text-sm text-grey font-medium'>
+                          Email Address
+                        </label>
+                        <input
+                          required
+                          type='email'
+                          value={messageData.email}
+                          onChange={(e) =>
+                            messageOnchange('email', e.target.value)
+                          }
+                          className='form-control border border-gradient-to-r from-dedukt-blue to-dedukt-sk rounded'
+                          placeholder=''
+                        />
+                      </div>
 
-                        <div className='col-md-6 mb-5 form-text justify-content-center form-msgg'>
-                          <label
-                            htmlFor='exampleFormControlTextarea1'
-                            className='form-label font-CamptonMedium text-sm text-grey font-medium'>
-                            Message
-                          </label>
-                          <textarea
-                            required
-                            className='form-control border-gradient-to-r from-dedukt-blue to-dedukt-sk rounded border'
-                            value={messageData.message}
-                            onChange={(e) =>
-                              messageOnchange('message', e.target.value)
-                            }
-                            id='exampleFormControlTextarea1'
-                            rows='6'
-                            placeholder=''></textarea>
-                        </div>
+                      <div className='col-md-6 mb-5 form-text justify-content-center form-msgg'>
+                        <label
+                          htmlFor='exampleFormControlTextarea1'
+                          className='form-label font-CamptonMedium text-sm text-grey font-medium'>
+                          Message
+                        </label>
+                        <textarea
+                          required
+                          className='form-control border-gradient-to-r from-dedukt-blue to-dedukt-sk rounded border'
+                          value={messageData.message}
+                          onChange={(e) =>
+                            messageOnchange('message', e.target.value)
+                          }
+                          id='exampleFormControlTextarea1'
+                          rows='6'
+                          placeholder=''></textarea>
                       </div>
-                      <div className='col-md-6 mb-3 form-text text-center'>
-                        <button
-                          type='submit'
-                          class='btn-lg form-btnn bg-gradient-to-r from-dedukt-bl to-dedukt-br'>
-                          Send
-                        </button>
-                      </div>
-                    </form>
-                  </div>
+                    </div>
+                    <div className='col-md-6 mb-3 form-text text-center'>
+                      <button
+                        type='submit'
+                        class='btn-lg form-btnn bg-gradient-to-r from-dedukt-bl to-dedukt-br'>
+                        Send
+                      </button>
+                    </div>
+                  </form>
                 </div>
               </div>
             </div>

@@ -4,7 +4,6 @@ import logo from '../../assets/dedukt logo.svg';
 import logoo from '../../assets/deduktlogoo.svg';
 import header from '../../assets/header.svg';
 import unlock from '../../assets/unlock.png';
-import support from '../../assets/supportimg.png';
 import logo1 from '../../assets/logo1.svg';
 import logo2 from '../../assets/logo2.svg';
 import logo3 from '../../assets/logo3.svg';
@@ -16,7 +15,7 @@ import buildd from '../../assets/buildd.svg';
 import privicon from '../../assets/privacyicon.png';
 import linkedin from '../../assets/LinkedIn.svg';
 import Deduktabout from '../../assets/Deduktabout.svg';
-import CountUp from 'react-countup';
+//import CountUp from 'react-countup';
 import { Disclosure } from '@headlessui/react';
 import { MenuIcon, XIcon } from '@heroicons/react/outline';
 import { Link } from 'react-router-dom';
@@ -33,10 +32,10 @@ const Employer = () => {
   const [readMore, setReadMore] = useState(false);
   const [employees, setEmployees] = useState(0);
   const [lenders, setLender] = useState(0);
-  const [disable, setDisable] = useState(false);
-  const [favorite, setFavorite] = useState(false);
+  //const [disable, setDisable] = useState(false);
+  //const [favorite, setFavorite] = useState(false);
   const [stats, setStats] = useState(false);
-  const [btnClass, setBtnClass] = useState(false);
+  //const [btnClass, setBtnClass] = useState(false);
   const [btnColor, setBtnColor] = useState('red');
   const [deduction, setDeduction] = useState(0);
   const extraContent = (
@@ -209,7 +208,7 @@ const Employer = () => {
                   onClick={() => {
                     setStats(true);
                   }}
-                  style={{ backgroundClipText: stats == true ? 'black' : '' }}
+                  style={{ backgroundClipText: stats === true ? 'black' : '' }}
                   className='text-transparent bg-clip-text navsizing  bg-gradient-to-r from-dedukt-bl to-dedukt-br
 											 lg:px-1 px-8 py-3 md:px-1 
 											rounded-md text-base font-medium xs:hidden font-CamptonMedium len'>
@@ -654,7 +653,7 @@ const Employer = () => {
               <div class='mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl'></div>
               <div class='pr-32 pl-32 getstarted'>
                 <ol
-                  role='list'
+                  role='lis'
                   class='space-y-4 md:flex md:space-y-0 md:space-x-8 getstartedd'>
                   <li class='md:flex-1 relative' data-aos='fade-left'>
                     <p class='text-lg startedfirst font-bold text-black font-CamptonBold'>
