@@ -24,18 +24,14 @@ import 'aos/dist/aos.css';
 
 const Lender = () => {
   const url = process.env.REACT_APP_URL;
-  const [signUpModal, setSignUpModal] = useState(false);
-  const [reqDemoModal, setReqDemoModal] = useState(false);
-  const [privacyDemoModal, setPrivacyDemoModal] = useState(false);
-  const [readMore, setReadMore] = useState(false);
-		//const [disable, setDisable] = useState(false);
-    //const [favorite, setFavorite] = useState(false);
-    const [stats, setStats] = useState(false);
-    //const [btnClass, setBtnClass] = useState(false);
-    const [btnColor, setBtnColor] = useState('red');
-  const [employees, setEmployees] = useState(0);
-  const [lenders, setLender] = useState(0);
-  const [deduction, setDeduction] = useState(0);
+ const [signUpModal, setSignUpModal] = useState(false);
+ const [reqDemoModal, setReqDemoModal] = useState(false);
+ const [privacyDemoModal, setPrivacyDemoModal] = useState(false);
+ const [readMore, setReadMore] = useState(false);
+ const [employees, setEmployees] = useState(0);
+ const [lenders, setLender] = useState(0);
+ const [isEmployerActive, setIsEmployerActive] = useState(true);
+ const [deduction, setDeduction] = useState(0);
   const extraContent = (
     <div className='mt-4'>
       <p className='mt-4 font-CamptonBook font-normal text-left text-black text-xs'>
@@ -157,7 +153,7 @@ const Lender = () => {
         <>
           {/* ==========================NAVBAR STARTS================================*/}
           <div
-            className='w-screen h-[80px] bg-white z-10 p-2 mt-0 fixed top-0 drop-shadow-sm mx-auto px-4 
+            className='w-screen h-[80px] navbutn bg-white z-10 p-2 mt-0 fixed top-0 drop-shadow-sm mx-auto px-4 
 					sm:px-6 xl:px-8 lg:px-0'>
             <div className='flex items-center navpositioning justify-center h-full w-full'>
               <Link className='flex-shrink-0' to='/'>
@@ -176,14 +172,13 @@ const Lender = () => {
                   duration={500}
                   exact='true'
                   onClick={() => {
-                    btnColor === 'red'
-                      ? setBtnColor('green')
-                      : setBtnColor('red');
+                    setIsEmployerActive(true);
                   }}
-                  style={{ backgroundClipText: btnColor }}
-                  className='text-transparent bg-clip-text navsizing bg-gradient-to-r xs:hidden from-dedukt-bl to-dedukt-br
-											 lg:px-1 px-8 py-3 md:px-1 
-											rounded-md text-base font-medium font-CamptonMedium emp'>
+                  className={
+                    !isEmployerActive
+                      ? 'text-transparent bg-clip-text navsizing bg-gradient-to-r xs:hidden from-dedukt-bl to-deduktlg:px-1 px-8 py-3 md:px-1 rounded-md text-base font-medium font-CamptonMedium emp'
+                      : 'text-transparent bg-clip-text navsizing bg-black lg:px-1 px-8 py-3 md:px-1 rounded-md text-base font-medium font-CamptonMedium emp'
+                  }>
                   Employer
                 </a>
                 <div className='border-l-2 border bord border-gray'></div>
@@ -195,12 +190,13 @@ const Lender = () => {
                   duration={500}
                   exact='true'
                   onClick={() => {
-                    setStats(true);
+                    setIsEmployerActive(false);
                   }}
-                  style={{ backgroundClipText: stats === true ? 'black' : '' }}
-                  className='text-transparent bg-clip-text navsizing  bg-gradient-to-r from-dedukt-bl to-dedukt-br
-											 lg:px-1 px-8 py-3 md:px-1 
-											rounded-md text-base font-medium xs:hidden font-CamptonMedium len'>
+                  className={
+                    isEmployerActive
+                      ? 'text-transparent bg-clip-text navsizing bg-gradient-to-r xs:hidden from-dedukt-bl to-deduktlg:px-1 px-8 py-3 md:px-1 rounded-md text-base font-medium font-CamptonMedium emp'
+                      : 'text-transparent bg-clip-text navsizing bg-black lg:px-1 px-8 py-3 md:px-1 rounded-md text-base font-medium font-CamptonMedium emp'
+                  }>
                   Lender
                 </a>
               </div>
@@ -349,9 +345,9 @@ const Lender = () => {
           </Disclosure.Panel>
           {/* ==========================NAVBAR ENDS================================*/}
           {/* ==========================HERO SECTION STARTS ============================= */}
-          <main class='lg:relative heropading lg:my-10 md:my-10'>
+          <div class='lg:relative heropading lg:my-10 md:my-10'>
             <div
-              class='mx-auto heroo max-w-7xl w-full pt-12 pb-12 text-center lg:text-left px-8 overflow-hidden'
+              class='mx-auto heroo holdContainer max-w-7xl w-full pt-12 pb-12 text-center lg:text-left px-8 overflow-hidden'
               data-aos='fade-up-down'>
               <div class='px-4 herospacing lg:pt-28 lg:w-1/2 sm:px-8 xl:pr-16'>
                 <h1
@@ -373,7 +369,7 @@ const Lender = () => {
                       href='/'
                       onClick={toggleModal}
                       class='w-full flex items-center justify-center px-4 py-4 border
-									 text-lg text-white startedbtn font-normal bg-gradient-to-r 
+									 text-lg text-white startedbtnn font-normal bg-gradient-to-r 
 									 from-dedukt-bl to-dedukt-br rounded md:py-4 md:text-lg lg:text-lg'>
                       Get started for free
                     </a>
@@ -419,38 +415,18 @@ const Lender = () => {
                   </div>
                 </div>
               </div>
-            </div>
-            <div
-              class='lg:-mt-1 relative w-full headerround headerr 
+              <div
+                class='lg:-mt-1 relative w-full headerround headerr 
 							 h-64 sm:h-72 md:h-96 
 				lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full'>
-              <img
-                class='absolute w-10/12 lenimgg lenn h-full'
-                src={deduktheader}
-                alt='header'
-              />
-              {/*<div class='mt-96 lenoimg sm:flex sm:justify-end privipolicy lg:justify-end'>
-                <div
-                  class='rounded-md policybtn lg:pr-56 lg:-mr-12 origin-bottom-right -rotate-90 
-								privi privipolicy fixed'>
-                  <a
-                    href='/'
-                    onClick={selectModal}
-                    class='w-full relative privvi flex items-center justify-center px-8 py-3 border
-									 text-lg text-white privibtn text-left font-normal bg-gradient-to-r 
-									 from-dedukt-bl to-dedukt-br rounded md:py-4 md:text-lg lg:text-xl'>
-                    Privacy Policy
-                    <img
-                      class='h-5 w-5 ml-2 rotate-90'
-                      src={privicon}
-                      onClick={selectModal}
-                      alt='terms'
-                    />
-                  </a>
-                </div>
-              </div>*/}
+                <img
+                  class='absolute w-10/12 lenimgg lenn h-full'
+                  src={deduktheader}
+                  alt='header'
+                />
+              </div>
             </div>
-          </main>
+          </div>
           {/* ==========================HERO SECTION ENDS ============================= */}
           {/* ==========================ACHIEVE STARTS ============================= */}
           {/*access part*/}
@@ -470,24 +446,6 @@ const Lender = () => {
                 </div>
                 <div className='col-md-4 relative py-4 justify-content-center accessb access-rgg'>
                   <div className='py-4 accessbod'>
-                    <div class='sm:flex sm:justify-end lg:justify-end -mr-72 privispacingg'>
-                      <div class='rounded-md origin-bottom-right -rotate-90'>
-                        <a
-                          href='/'
-                          onClick={selectModal}
-                          class='w-full relative flex items-center justify-center px-8 py-3 border
-									 text-lg text-white privibtn text-left font-normal bg-gradient-to-r 
-									 from-dedukt-bl to-dedukt-br rounded md:py-4 md:text-lg lg:text-xl'>
-                          Privacy Policy
-                          <img
-                            class='h-5 w-5 ml-2 rotate-90'
-                            src={privicon}
-                            onClick={selectModal}
-                            alt='terms'
-                          />
-                        </a>
-                      </div>
-                    </div>
                     <h1 className='font-CamptonBold achievefirstt achievee text-blue font-bold text-4xl mb-6'>
                       Achieve 100% collection rate
                     </h1>
@@ -497,14 +455,32 @@ const Lender = () => {
                       your repayments and other deductions
                     </p>
                     <div class='mt-10 sm:flex sm:justify-center lg:justify-start'>
-                      <div class='rounded-md'>
+                      <div class='rounded-md lennstarted'>
                         <a
                           href='/'
                           onClick={toggleModal}
                           class='w-full flex items-center justify-center px-4 py-4 border
-									 text-lg text-white startedbtn font-normal bg-gradient-to-r 
+									 text-lg text-white startedbtnn font-normal bg-gradient-to-r 
 									 from-dedukt-bl to-dedukt-br rounded md:py-4 md:text-lg lg:text-lg'>
                           Get started for free
+                        </a>
+                      </div>
+                    </div>
+                    <div class='sm:flex sm:justify-end lg:justify-end -mr-72 privispacingg'>
+                      <div class='rounded-md origin-bottom-right -rotate-90'>
+                        <a
+                          href='/'
+                          onClick={selectModal}
+                          class='w-full relative flex items-center justify-center px-8 py-3 border
+									 text-lg text-white lenbtnn text-left font-normal bg-gradient-to-r 
+									 from-dedukt-bl to-dedukt-br rounded md:py-4 md:text-lg lg:text-xl'>
+                          Privacy Policy
+                          <img
+                            class='h-5 w-5 ml-2 rotate-90'
+                            src={privicon}
+                            onClick={selectModal}
+                            alt='terms'
+                          />
                         </a>
                       </div>
                     </div>
@@ -517,8 +493,8 @@ const Lender = () => {
           {/* ==========================ACCESS STARTS ============================= */}
           <div className='py-24 accesscontt'>
             <div className='container'>
-              <div className='row -mr-36 acessspacing'>
-                <div className='col-md-4 ml-10 py-32 justify-content-center achievetv achieve-rggg'>
+              <div className='row acessspacing'>
+                <div className='col-md-4 py-32 justify-content-center achievetv achieve-rggg'>
                   <div className='py-4'>
                     <h1
                       className='font-CamptonBold text-blue accessfirstt relative 
@@ -531,7 +507,7 @@ const Lender = () => {
                       direct from employers in nano seconds.
                     </p>
                     <div class='mt-10 sm:flex sm:justify-center lg:justify-start'>
-                      <div class='rounded-md'>
+                      <div class='rounded-md lennstartedd'>
                         <a
                           href='/'
                           onClick={toggleModal}
@@ -560,7 +536,7 @@ const Lender = () => {
           </div>
           {/* ==========================ACCESS ENDS ============================= */}
           {/* ==========================GETTING STARTED STARTS ============================= */}
-          <div id='howworks'>
+          <div id='howworks' className='holdContainer'>
             <div class='relative pt-16 sm:pt-24 pb-16 lg:pt-52 lg:pb-48'>
               <div class='mx-auto max-w-md px-4 text-center sm:px-6 sm:max-w-3xl lg:px-8 lg:max-w-7xl'></div>
               <div class='pr-32 pl-32 getstarted'>
@@ -578,7 +554,7 @@ const Lender = () => {
                     <span class='text-indigo-600'>01</span>
                   </span>*/}
                     <a
-                      href='#'
+                      href='/'
                       class='pl-4 py-2 flex relative flex-col border-l-2 border-dedukt-sky md:pl-0 md:pt-4 
 										lg:pb-6 md:pb-0 md:border-l-0 md:border-t-8 rounded'
                       aria-current='step'>
@@ -606,7 +582,7 @@ const Lender = () => {
                     </p>
 
                     <a
-                      href='#'
+                      href='/'
                       class='pl-4 py-2 flex flex-col relative border-l-4 border-dedukt-light md:pl-0 md:pt-4 md:pb-0 
 										lg:pb-6 md:border-l-0 md:border-t-8 rounded'
                       aria-current='step'>
@@ -632,7 +608,7 @@ const Lender = () => {
                     </p>
 
                     <a
-                      href='#'
+                      href='/'
                       class='pl-4 py-2 flex flex-col relative border-l-4 border-dedukt-light md:pl-0 md:pt-4 md:pb-0 
 										lg:pb-6 md:border-l-0 md:border-t-8 rounded'
                       aria-current='step'>
@@ -651,23 +627,22 @@ const Lender = () => {
                 </ol>
               </div>
             </div>
+          </div>
+          {/* ========================== GETTING STARTED ENDS ============================= */}
 
-            {/* ========================== GETTING STARTED ENDS ============================= */}
-
-            {/*================ WHO DID WE BUILD FOR STARTS ========================*/}
-            <div class='py-24 whopadding lg:pb-32 bg-gradient-to-r from-dedukt-bl to-dedukt-br rounded'>
-              <div class='relative mt-12 sm:mt-16 lg:mt-12'>
+          {/*================ WHO DID WE BUILD FOR STARTS ========================*/}
+          <div className=''>
+            <div class='py-24 whopadding bg-gradient-to-r from-dedukt-bl to-dedukt-br rounded'>
+              <div class='relative'>
                 <div class='lg:grid buildspcing lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center'>
-                  <div
-                    class='lg:col-start-2 lg:pb-32 whoheading pr-10'
-                    data-aos='fade-left'>
+                  <div class='lg:col-start-2 whoheading' data-aos='fade-left'>
                     <div>
                       <p className='text-white whotext font-CamptonBold font-bold tracking-tight text-left text-4xl relative'>
                         Who did we build <br /> dedukt for?
                       </p>
                     </div>
-                    <div class='mt-6 mr-16 whoalign'>
-                      <dl class='mt-8 space-y-6 mr-8'>
+                    <div class='mt-6'>
+                      <dl class='mt-8 whoalign space-y-6'>
                         <dd class='flex'>
                           <h2 class='font-CamptonBold whotextfirst font-semibold text-left text-2xl text-white'>
                             Employees
@@ -707,7 +682,7 @@ const Lender = () => {
                         <a
                           href='/'
                           onClick={clickModal}
-                          class='inline-flex bg-white whobtn pr-56 pl-56 py-4 
+                          class='inline-flex bg-white whobtn pr-32 pl-32 py-4 
 												border text-base text-center text-black font-CircularStd-Book font-normal rounded'>
                           {' '}
                           Request a Demo{' '}
@@ -730,19 +705,17 @@ const Lender = () => {
           </div>
           {/*================ WHO DID WE BUILD FOR ENDS ========================*/}
           {/*======================= VALUES LIVE BY STARTS =========================*/}
-          <div id='aboutus'>
+          <div id='aboutus' className='holdContainer'>
             <div class='relative mt-12 lg:mt-44 lg:mb-32 value'>
               <div class='lg:grid valcontt lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center'>
-                <div
-                  class='lg:col-start-2 lg:pb-16 valheading pr-32'
-                  data-aos='fade-up'>
+                <div class='lg:col-start-2 valheading' data-aos='fade-up'>
                   <div>
                     <p className='text-black font-CamptonBold valuetext font-bold text-4xl relative'>
                       Values we live by
                     </p>
                   </div>
-                  <div class='mt-6 mr-16 valuespacing'>
-                    <dl class='mt-8 space-y-6 mr-8 valuespace'>
+                  <div class='mt-6 valuespacing'>
+                    <dl class='mt-8 space-y-6 valuespace'>
                       <dd class='flex'>
                         <h2 class='font-CamptonSemiBold valuefirst font-semibold text-2xl text-grey'>
                           Passion
@@ -775,7 +748,7 @@ const Lender = () => {
                   </div>
                 </div>
                 <div
-                  class='mt-10 -mx-4 relative pl-24 abtimg lg:mt-0 lg:col-start-1'
+                  class='relative abtimg lg:col-start-1'
                   data-aos='fade-left'>
                   <img
                     class='relative dedukttimgg mx-auto'
@@ -788,8 +761,8 @@ const Lender = () => {
           </div>
           {/*======================= VALUES LIVE BY ENDS ========================= */}
           {/*======================= GROWING LIST STARTS ========================= */}
-          <div class=''>
-            <div class='max-w-7xl partnerspacing mx-auto py-20 px-4 sm:px-6 lg:px-8'>
+          <div class='holdContainer'>
+            <div class='max-w-7xl partnerspacing  mx-auto py-20 px-4 sm:px-6 lg:px-8'>
               <p
                 class='text-center text-4xl font-bold growingtext text-black
 							 font-CircularStd-Bold tracking-normal'>
@@ -861,7 +834,6 @@ const Lender = () => {
                 <div className='support-logo'>
                   <form
                     className='form-contt shadow-md pt-2 justify-content-center'
-                    data-aos='fade-up'
                     onSubmit={sendEmail}>
                     <div className='row fom-row'>
                       <div className='col-md-6 mt-4 form-text form-namee'>
@@ -925,43 +897,47 @@ const Lender = () => {
             </div>
           </div>
           {/* ==========================GET SUPPORT ENDS ============================= */}
+
           {/*======================= FOOTER STARTS ========================= */}
-          <footer className='bg-grayy bg-ellipses'>
-            <div class='grid grid-cols-2 pb-2 gap-8 md:grid-cols-2 lg:grid-cols-2'>
-              <div class='col-span-1 flex deduktt items-start md:col-span-2 lg:col-span-1'>
-                <img
-                  className='block pl-16 deduktlogoo w-6/12 h-full pt-20 pr-8 xl:pr-16 xl:pl-32 sm:px-0'
-                  src={logoo}
-                  alt='dedukt'
-                />
-              </div>
-              <div class='col-span-1 flex flex-row justify-center md:col-span-2 lg:col-span-1'>
-                <div className='relative pt-20'>
-                  <div class='relative col-span-2 flex flex-row justify-between md:col-span-3 lg:col-span-1'>
-                    <span className='text-white text-lg mr-3 followtext font-normal font-CircularStd-Book relative'>
-                      Follow us on
-                    </span>
-                    <img
-                      class='h-auto iconn'
-                      src={linkedin}
-                      alt='terms'
-                      href='https://www.linkedin.com/company/dedukt/'
-                    />
+          <div className=''>
+            <footer className='bg-grayy bg-ellipses'>
+              <div class='grid grid-cols-2 pb-2 gap-8 md:grid-cols-2 lg:grid-cols-2'>
+                <div class='col-span-1 flex deduktt items-start md:col-span-2 lg:col-span-1'>
+                  <img
+                    className='block pl-16 deduktlogoo w-6/12 h-full pt-20 pr-8 xl:pr-16 xl:pl-32 sm:px-0'
+                    src={logoo}
+                    alt='dedukt'
+                  />
+                </div>
+                <div class='col-span-1 flex flex-row justify-center md:col-span-2 lg:col-span-1'>
+                  <div className='relative pt-20'>
+                    <div class='relative col-span-2 flex flex-row justify-between md:col-span-3 lg:col-span-1'>
+                      <span className='text-white text-lg mr-3 followtext font-normal font-CircularStd-Book relative'>
+                        Follow us on
+                      </span>
+                      <img
+                        class='h-auto iconn'
+                        src={linkedin}
+                        alt='terms'
+                        href='https://www.linkedin.com/company/dedukt/'
+                      />
+                    </div>
                   </div>
                 </div>
               </div>
-            </div>
-            <div class='max-w-7xl mx-auto pt-2 pb-12 px-4 overflow-hidden sm:px-6 xl:px-8'>
-              <div class='mt-8 flex justify-center w-full border-t border-white space-x-6'></div>
+              <div class='max-w-7xl mx-auto pt-2 pb-12 px-4 overflow-hidden sm:px-6 xl:px-8'>
+                <div class='mt-8 flex justify-center w-full border-t border-white space-x-6'></div>
 
-              <p class='mt-8 text-center footertext text-lg font-CircularStd-Book font-normal text-white'>
-                &copy; {date} Equal Digital Nigeria Limited | All Rights
-                Reserved
-              </p>
-            </div>
-          </footer>
-          {/*======================= FOOTER ENDS ========================= */}{' '}
+                <p class='mt-8 text-center footertext text-lg font-CircularStd-Book font-normal text-white'>
+                  &copy; {date} Equal Digital Nigeria Limited | All Rights
+                  Reserved
+                </p>
+              </div>
+            </footer>
+          </div>
+          {/*======================= FOOTER ENDS ========================= */}
           {/* ==========================GET STARTED MODAL STARTS ============================= */}
+
           <Modal
             size='md'
             isOpen={signUpModal}
@@ -1004,6 +980,7 @@ const Lender = () => {
           </Modal>
           {/* ==========================GET STARTED MODAL ENDS ============================= */}
           {/* ==========================REQUEST DEMO MODAL STARTS ============================= */}
+
           <Modal
             size='md'
             isOpen={reqDemoModal}
@@ -1026,7 +1003,7 @@ const Lender = () => {
                     </button>
                   </div>
 
-                  <div className='font-CamptonMedium reqdemotext font-medium text-center text-black text-2xl sm:text-xl'>
+                  <div className='font-CamptonMedium font-medium reqdemotext text-center text-black text-2xl sm:text-xl'>
                     Kindly fill in the following information, <br />
                     we’d reach out to you within 48 hours.
                   </div>

@@ -32,11 +32,7 @@ const Employer = () => {
   const [readMore, setReadMore] = useState(false);
   const [employees, setEmployees] = useState(0);
   const [lenders, setLender] = useState(0);
-  //const [disable, setDisable] = useState(false);
-  //const [favorite, setFavorite] = useState(false);
-  const [stats, setStats] = useState(false);
-  //const [btnClass, setBtnClass] = useState(false);
-  const [btnColor, setBtnColor] = useState('red');
+	const [isEmployerActive, setIsEmployerActive] = useState(true);
   const [deduction, setDeduction] = useState(0);
   const extraContent = (
     <div className='mt-4'>
@@ -168,7 +164,7 @@ const Employer = () => {
         <>
           {/* ==========================NAVBAR STARTS================================*/}
           <div
-            className='w-screen h-[80px] bg-white z-10 p-2 mt-0 fixed top-0 drop-shadow-sm mx-auto px-4 
+            className='w-screen h-[80px] navbutn bg-white z-10 p-2 mt-0 fixed top-0 drop-shadow-sm mx-auto px-4 
 					sm:px-6 xl:px-8 lg:px-0'>
             <div className='flex items-center navpositioning justify-center h-full w-full'>
               <Link className='flex-shrink-0' to='/'>
@@ -187,14 +183,13 @@ const Employer = () => {
                   duration={500}
                   exact='true'
                   onClick={() => {
-                    btnColor === 'red'
-                      ? setBtnColor('green')
-                      : setBtnColor('red');
+                    setIsEmployerActive(true);
                   }}
-                  style={{ backgroundClipText: btnColor }}
-                  className='text-transparent bg-clip-text navsizing bg-gradient-to-r xs:hidden from-dedukt-bl to-dedukt-br
-											 lg:px-1 px-8 py-3 md:px-1 
-											rounded-md text-base font-medium font-CamptonMedium emp'>
+                  className={
+                    isEmployerActive
+                      ? 'text-transparent bg-clip-text navsizing bg-gradient-to-r xs:hidden from-dedukt-bl to-deduktlg:px-1 px-8 py-3 md:px-1 rounded-md text-base font-medium font-CamptonMedium emp'
+                      : 'text-transparent bg-clip-text navsizing bg-black lg:px-1 px-8 py-3 md:px-1 rounded-md text-base font-medium font-CamptonMedium emp'
+                  }>
                   Employer
                 </a>
                 <div className='border-l-2 border bord border-gray'></div>
@@ -206,17 +201,18 @@ const Employer = () => {
                   duration={500}
                   exact='true'
                   onClick={() => {
-                    setStats(true);
+                    setIsEmployerActive(false);
                   }}
-                  style={{ backgroundClipText: stats === true ? 'black' : '' }}
-                  className='text-transparent bg-clip-text navsizing  bg-gradient-to-r from-dedukt-bl to-dedukt-br
-											 lg:px-1 px-8 py-3 md:px-1 
-											rounded-md text-base font-medium xs:hidden font-CamptonMedium len'>
+                  className={
+                    !isEmployerActive
+                      ? 'text-transparent bg-clip-text navsizing bg-gradient-to-r xs:hidden from-dedukt-bl to-dedukt lg:px-1 px-8 py-3 md:px-1 rounded-md text-base font-medium font-CamptonMedium emp'
+                      : 'text-transparent bg-clip-text navsizing bg-black lg:px-1 px-8 py-3 md:px-1 rounded-md text-base font-medium font-CamptonMedium emp'
+                  }>
                   Lender
                 </a>
               </div>
               <div className='flex items-center'>
-                <div className='hidden navspacing navspcing xl:ml-48 lg:ml-24 sm:block md:flex md:justify-between sm:ml-6'>
+                <div className='hidden navspacing navspcing xl:ml-48 sm:block md:flex md:justify-between sm:ml-6'>
                   <div className='flex space-x-4'>
                     <a
                       href='#aboutus'
@@ -365,7 +361,7 @@ const Employer = () => {
             <div
               class='mx-auto heroo holdContainer max-w-7xl w-full pt-12 pb-12 text-center lg:text-left px-8 overflow-hidden'
               data-aos='fade-up-down'>
-              <div class='px-4 herospacing lg:pt-40 lg:w-1/2 sm:px-8 xl:pr-16'>
+              <div class='px-4 herospacing lg:w-1/2 sm:px-8'>
                 <h1
                   class='text-5xl font-CamptonBold text-black font-bold 
 								sm:text-2xl md:text-3xl lg:text-5xl tracking-tight xl:text-5xl herofirst lg:text-left'>
@@ -385,7 +381,7 @@ const Employer = () => {
                       href='/'
                       onClick={toggleModal}
                       class='w-full flex items-center justify-center px-4 py-4 border
-									 text-lg text-white startedbtn font-normal bg-gradient-to-r 
+									 text-lg text-white startedbtnn font-normal bg-gradient-to-r 
 									 from-dedukt-bl to-dedukt-br rounded md:py-4 md:text-lg lg:text-lg'>
                       Get started for free
                     </a>
@@ -433,7 +429,7 @@ const Employer = () => {
                 </div>
                 <div
                   class='relative w-full headerimg h-64 sm:h-72 md:h-96 
-				lg:absolute lg:inset-y-0 lg:right-0 lg:w-1/2 lg:h-full'>
+				lg:absolute lg:inset-y-0 lg:right-0 lg:h-full'>
                   <img
                     class='absolute w-11/12 heroimg h-full'
                     src={header}
@@ -493,7 +489,7 @@ const Employer = () => {
           </div>
           {/* ==========================UNLOCK ENDS ============================= */}
           {/* ==========================WHY YOU NEED DEDUKT STARTS ============================= */}
-          <div class='mt-56'>
+          <div class='mt-56 deduktmarginn'>
             <div class='relative holdContainer mt-12 sm:mt-16 lg:mt-24'>
               <div class='lg:grid lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center'>
                 <div class='lg:col-start-2 relative deduktneed'>
@@ -666,7 +662,7 @@ const Employer = () => {
                     <span class='text-indigo-600'>01</span>
                   </span>*/}
                     <a
-                      href='#'
+                      href='/'
                       class='pl-4 py-2 flex relative flex-col border-l-2 border-dedukt-sky md:pl-0 md:pt-4 
 										lg:pb-6 md:pb-0 md:border-l-0 md:border-t-8 rounded'
                       aria-current='step'>
@@ -694,7 +690,7 @@ const Employer = () => {
                     </p>
 
                     <a
-                      href='#'
+                      href='/'
                       class='pl-4 py-2 flex flex-col relative border-l-4 border-dedukt-light md:pl-0 md:pt-4 md:pb-0 
 										lg:pb-6 md:border-l-0 md:border-t-8 rounded'
                       aria-current='step'>
@@ -720,7 +716,7 @@ const Employer = () => {
                     </p>
 
                     <a
-                      href='#'
+                      href='/'
                       class='pl-4 py-2 flex flex-col relative border-l-4 border-dedukt-light md:pl-0 md:pt-4 md:pb-0 
 										lg:pb-6 md:border-l-0 md:border-t-8 rounded'
                       aria-current='step'>
@@ -739,17 +735,15 @@ const Employer = () => {
                 </ol>
               </div>
             </div>
-</div>
-            {/* ========================== GETTING STARTED ENDS ============================= */}
+          </div>
+          {/* ========================== GETTING STARTED ENDS ============================= */}
 
-            {/*================ WHO DID WE BUILD FOR STARTS ========================*/}
-            <div className='holdContainer'>
-						<div class='py-24 whopadding bg-gradient-to-r from-dedukt-bl to-dedukt-br rounded'>
+          {/*================ WHO DID WE BUILD FOR STARTS ========================*/}
+          <div className=''>
+            <div class='py-24 whopadding bg-gradient-to-r from-dedukt-bl to-dedukt-br rounded'>
               <div class='relative'>
                 <div class='lg:grid buildspcing lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center'>
-                  <div
-                    class='lg:col-start-2 whoheading'
-                    data-aos='fade-left'>
+                  <div class='lg:col-start-2 whoheading' data-aos='fade-left'>
                     <div>
                       <p className='text-white whotext font-CamptonBold font-bold tracking-tight text-left text-4xl relative'>
                         Who did we build <br /> dedukt for?
@@ -822,9 +816,7 @@ const Employer = () => {
           <div id='aboutus' className='holdContainer'>
             <div class='relative mt-12 lg:mt-44 lg:mb-32 value'>
               <div class='lg:grid valcontt lg:grid-flow-row-dense lg:grid-cols-2 lg:gap-8 lg:items-center'>
-                <div
-                  class='lg:col-start-2 valheading'
-                  data-aos='fade-up'>
+                <div class='lg:col-start-2 valheading' data-aos='fade-up'>
                   <div>
                     <p className='text-black font-CamptonBold valuetext font-bold text-4xl relative'>
                       Values we live by
@@ -950,7 +942,6 @@ const Employer = () => {
                 <div className='support-logo'>
                   <form
                     className='form-contt shadow-md pt-2 justify-content-center'
-                    data-aos='fade-up'
                     onSubmit={sendEmail}>
                     <div className='row fom-row'>
                       <div className='col-md-6 mt-4 form-text form-namee'>

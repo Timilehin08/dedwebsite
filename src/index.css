@@ -14,6 +14,11 @@
 	font-family:'Montserrat' !important;
 }
 
+a{
+	/*text-decoration: none;*/
+	/*color: unset;*/
+}
+
 html {
 	font-family:'Montserrat';
 	margin: 0;
@@ -41,31 +46,3697 @@ hr{
 
 
 /*--------------------------MEDIA QUERIES STARTS------------*/
-@media (min-width: 640px) { 
+/*// Small devices (landscape phones, 576px and up)
+@media (min-width: 576px) { ... }
+
+// Medium devices (tablets, 768px and up)
+@media (min-width: 768px) { ... }
+
+// Large devices (desktops, 992px and up)
+@media (min-width: 992px) { ... }
+
+// Extra large devices (large desktops, 1200px and up)
+@media (min-width: 1200px) { ... }*/
+
+/*Galaxy Fold (653px)*/
+@media only screen and (min-device-width: 280px) and (max-device-width: 653px){
+}
+
+/*Small devices (320px)*/
+@media only screen
+and (min-device-width: 320px) 
+and (max-device-width: 538px) { 
+	.navbutn{
+	position: absolute !important;
+}
+
+/*.holdContainer{
+    max-width: 0px !important;
+    margin: 0px !important;
+	padding-left: 0px !important;
+    padding-right: 0px !important;
+}*/
+	
+	.navsmall{
+	margin-top: 100px !important;
+}
+	.herospacing{
+	padding-top: 100px !important;
+	padding-left: 14px !important;
+padding-right: 14px !important;
+}
+
+.startedbtn{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+	--tw-gradient-from: #FFFFF !important;
+	--tw-gradient-to: #FFFFF !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 255)) !important;
+background-color: white;
+color: #10008B !important;
+}
+
+.countbod{
+	border-top: none !important;
+}
+
+.headerround{
+	margin-bottom: -40px !important;
+    margin-top: -340px !important;
+}
+
+.headerimg {
+    margin-bottom: 0px !important;
+    margin-top: -200px !important;
+}
+
+.whytextt {
+    padding-right: 10px !important;
+}
+
+	.privibtn{
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+	}
+
+	.deduktneed {
+    margin-left: 0px !important;
+		padding-right: 2px !important;
+	}
+
+  .deduktmarginn{
+		margin-top: 128px !important;
+	}
+
+	.loanspacing {
+    margin-left: -30px !important;
+    margin-right: -0px !important;
+		padding-left: 30px !important;
+}
+
+.howtext {
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+    margin-right: 40px !important;
+		font-size: 18px !important;
+    padding-right: 3px !important;
+}
+
+	.whybtn {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-left: 9px !important;
+}
+
+.deduktspacingg{
+	padding-top: 160px !important;
+}
+
+.buildspcing{
+	margin-right: -60px !important;
+}
+
+.achieve-rggg {
+    margin-left: 0px !important;
+    padding-right: 10px !important;
+	margin-top: -90px !important;
+	margin-bottom: -90px !important;
+	}
+
+.valcontt{
+	margin-right: -150px !important;
+}
+
+.partnerspacing{
+	padding-top: 150px !important;
+}
+
+.form-namee .form-control{
+	/*background-clip: linear-gradient(to right, #10008B, #98E2EC) !important;*/
+border-color: #10008B !important;
+width: 250px !important;
+}
+
+.form-maill .form-control {
+	border-color: #10008B !important;
+    width: 200px !important;
+	}
+
+	.form-msgg .form-control {
+    width: 255px !important;
+		border-color: #10008B !important;
+	}
+
+	.form-btnn {
+    width: 250px !important;
+	}
+
+	.iconn{
+		margin-top: 0px !important;
+    margin-left: -12px !important;
+	}
+
+	.form-req .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.reqdemotext{
+	font-size: 16px !important;
+}
+
+.modallbdy{
+	right: -16px !important;
+	top: -94px !important;
+}
+
+.form-req .form-label {
+    margin-left: -220px !important;
+		font-size: 20px !important;
+}
+
+.form-comp .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.form-comp .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-maila .form-control {
+    width: 300px !important;
+    margin-left: 18px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-btnreq {
+    width: 300px !important;
+		margin-left: 0px !important;
+		margin-right: -9px !important;
+	}
+	
+	
+	.container .logo {
+    margin-left: 10px !important;
+}
+
+
+.emp{
+display: none !important;
+}
+
+.heroimg{
+	display: none !important;
+}
+
+.herooimg{
+margin-top: -500px !important;
+margin-bottom: 80px !important;
+}
+
+.bord{
+	display: none !important;
+}
+.len{
+display: none !important;
+}
+
+.men-icon{
+	margin-left: 100px !important;
+}
+
+.lenimgg{
+	display: none !important;
+}
+
+.lenoimg{
+margin-top: -500px !important;
+margin-bottom: 80px !important;
+}
+
+.herofirst{
+	font-size: 28px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	text-align: left !important;
+	margin-bottom: 32px !important;
+}
+
+.herosecond{
+font-size: 12px !important;
+}
+
+.startedbtn{
+	padding-left: 10px !important;
+  margin-bottom: 50px !important;
+}
+
+.startedbtnn{
+	padding-left: 10px !important;
+  margin-bottom: 50px !important;
+}
+
+.counterhero{
+margin-bottom: 50px !important;
+}
+
+.counterbul{
+	display: none !important;
+}
+.headerround {
+    width: 300px !important;
+    height: 300px !important;
+    border-radius: 60% !important;
+    justify-content: center !important;
+    align-items: center !important;
+    margin-right: -60px !important;
+    padding-left: 20px !important;
+}
+
+
+.privi {
+		padding-top: 0px !important;
+    padding-right: 40px !important;
+    padding-left: 20px !important;
+		margin-right: -40px !important;
+}
+
+.privibtn {
+    font-size: 14px !important;
+    margin-top: 22px !important;
+    margin-bottom: 0px !important;
+    width: 60% !important;
+}
+
+.headerround {
+    background-image: none !important;
+}
+
+.policybtn .privibtn {
+    margin-top: 62px !important;
+    width: 80% !important;
+		font-size: 10px !important;
+	}
+
+ .privipolicy {
+	margin-right: -20px !important;
+}
+
+.imgheader{
+	margin-left: 6px !important;
+	width: 100% !important;
+}
+
+.achieveround{
+	display: none !important;
+}
+
+.achieveecont{ 
+	padding-top: 100px !important;
+  padding-bottom: 100px !important;
+}
+
+.access-rgg {
+    margin-left: 2px !important;
+    margin-top: 1px !important;
+}
+.achievefirstt{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.achievee{
+text-align: center !important;
+}
+
+.achieveesec{
+	text-align: center !important;
+}
+
+.achievesecondd{
+	font-size: 14px !important;
+font-family: 'CamptonBook' !important;
+font-weight: 400 !important;
+}
+
+.accessround{
+display: none !important;
+}
+
+.accesscontt{
+	padding-top: 48px !important;
+  padding-bottom: 16px !important;
+	background-image: linear-gradient(to right, #10008B, #98E2EC);
+	margin-left: 0px !important;
+	margin-right: 0px !important;
+}
+
+.accessfirstt{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	color: white !important;
+    text-align: center !important;
+}
+
+.accesssecondd{
+	font-size: 14px !important;
+font-family: 'CamptonBook' !important;
+font-weight: 400 !important;
+	color: white !important;
+    text-align: center !important;
+}
+
+.accesssbtn {
+	background-image: linear-gradient(to right, #F5F5F5, #FFFFFF) !important;
+color: #10008B !important;
+} 
+
+.unlockgrid{
+padding-left: 0px !important;
+    padding-right: 0px !important;
+    align-content: center !important;
+    text-align: center !important;
+}
+
+.unlockfirst{
+font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	text-align: left !important;
+	margin-bottom: 32px !important;
+	margin-top: 60px !important;
+	/*text-align: center !important;*/
+}
+
+.unlocksecond{
+font-size: 14px !important;
+font-family: 'CamptonBook' !important;
+font-weight: 400 !important;
+/*text-align: center !important;*/
+}
+
+.unlockmargin{
+	margin-right: 0px !important;
+}
+
+.unlock{
+	margin-left: -30px !important;
+	height: 400px !important;
+	width: 250px !important;
+}
+
+.whyfirst{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	margin-left: 30px !important;
+}
+
+.whysecond{
+	margin-right: 0px !important;
+	padding-left: 0px !important;
+}
+
+.whythird {
+	font-size: 14px !important;
+}
+
+.whybtn{
+	padding-left: 45px !important;
+    padding-right: 45px !important;
+}
+
+.whyabt{
+	display: none !important;
+}
+
+.howfirst{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.howdiv {
+margin-left: -18px !important;
+}
+
+.howsecond {
+	text-align: left !important;
+	font-size: 14px !important;
+}
+
+.howtextfirst {
+	padding-right: 16px !important;
+}
+
+.howtextsecond {
+	padding-right: 25px !important;
+  margin-left: -45px !important;
+}
+
+.howimg {
+display: none !important;
+}
+
+.getstarted{
+padding-left: 80px !important;
+    padding-right: 96px !important;
+    margin-bottom: 120px !important;
+    margin-top: 50px !important;
+}
+
+.startedfirst{
+	font-size: 14px !important;
+}
+
+.whoalign {
+    padding-right: 60px !important;
+    padding-left: 0px !important;
+    margin-left: -15px !important;
+}
+
+.startedsecond {
+	font-size: 32px !important;
+}
+
+.whopadding{
+padding-top: 80px !important;
+padding-bottom: 150px !important;
+}
+
+.whoheading{
+	padding-left: 4px !important;
+}
+
+.whotext{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.whoalign{
+margin-right: 16px !important;
+}
+
+.whobtn {
+    padding-left: 40px !important;
+    padding-right: 40px !important;
+		margin-left: -20px !important;
+}
+
+.whotextfirst {
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.whotextsecond{
+	font-size: 14px !important;
+}
+
+.whoimg{
+	display: none !important;
+}
+
+.valuetext{
+	font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+	padding-left: 45px !important;
+}
+
+.valcontt {
+    margin-right: -10px !important;
+    margin-left: -40px !important;
+}
+
+.value{
+	margin-top: 165px !important;
+}
+
+.valuespacing{
+padding-left: 45px !important;
+}
+
+.valuespace{
+	margin-right: 1px !important;
+  /*padding-left: 20px !important;*/
+}
+.valuefirst {
+	font-size: 18px !important;
+}
+
+.valuesecond{
+	font-size: 14px !important;
+	text-align: left !important;
+}
+
+.abtimg{
+display: none !important;
+}
+
+.growingtext{
+font-size: 20px !important;
+	font-weight: 600 !important;
+	font-family: 'CamptonSemiBold' !important;
+}
+
+.growingone{
+	margin-left: 150px !important;
+}
+
+.growingtwo{
+	display: none !important;
+}
+
+.growingthree{
+	margin-left: 190px !important;
+    margin-top: 70px !important;
+}
+
+.growingfour{
+	margin-left: 240px !important;
+    margin-top: 90px !important;
+}
+
+.reqdemobtn{
+padding-left: 45px !important;
+padding-right: 45px !important;
+}
+
+.getsupportimg{
+	display: none !important;
+}
+
+.form-contt {
+    max-width: 0px !important;
+		height: 50px !important;
+		margin-right: 170px !important;
+    margin-top: -450px !important;
+	}
+
+	.form-comp .form-label{
+		margin-left: -30px !important;
+	}
+
+	.form-req .form-label {
+    margin-left: -130px !important;
+}
+
+	.form-maila .form-label{
+		margin-left: -50px !important;
+	}
+
+
+	.form-btnreq{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+	.form-namee .form-control {
+    width: 200px !important;
+    margin-left: -20px !important;
+}
+
+.form-namee .form-label {
+    margin-left: -20px !important;
+}
+
+.form-maill .form-control {
+    margin-left: -20px !important;
+}
+
+.form-maill .form-label {
+    margin-left: -20px !important;
+}
+
+.form-msgg .form-label {
+    margin-left: -20px !important;
+}
+
+.form-msgg .form-control {
+    height: 150px !important;
+    width: 200px !important;
+    margin-left: -20px !important;
+}
+
+.form-btnn {
+width: 220px !important;
+margin-left: -30px !important;
+}
+
+.deduktlogoo {
+	width: 100% !important;
+    padding-left: 2px !important;
+    margin-left: 15px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    /*font-size: 24px !important;*/
+		display: none !important;
+	}
+
+	.promotion-logo{
+		display: none !important;
+	}
+
+	.promotion-padding {
+    padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+
+	.about-bg {
+     /*padding-top: 0px !important; */
+    margin-top: -400px !important;
+    margin-bottom: 150px !important; 
+	}
+	.about-img{
+		/*max-width: 500px !important;
+    height: 250px !important;
+    margin-left: 0px !important;
+		padding-bottom: 450px !important;*/
+		background-image: none !important;
+	}
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 340px !important;
+    height: 340px !important;
+		margin-left: 20px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-text h1 {
+    font-size: 22px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 270px !important;
+    height: 330px !important;
+		margin-left: 30px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 30px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-top: 0px !important;
+	}
+
+	.achieve-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.access-text h1{
+  font-size: 26px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 20px !important;
+		padding-top: 20px !important;
+	}
+
+.access-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.start-small h3 {
+		padding-top: 30px !important;
+	}
+
+	.round {
+		margin-left: 120px !important;
+	}
+
+	.support-big {
+    font-size: 24px !important;
+	}
+
+	.support-small {
+    font-size: 10px !important;
+	}
+
+	.support-logo{
+	background-image: none !important;
+	}
+
+	.support-padding {
+    padding-top: 500px !important;
+    padding-bottom: 50px !important;
+		margin-left: 10px !important;
+	}
+
+	.support-text{
+		margin-bottom: 500px !important;
+    margin-left: 0px !important;
+		margin-top: -450px !important;
+	}
+
+.supptfirst{
+font-size: 24px !important;
+font-weight: 600 !important;
+font-family: 'CamptonSemiBold' !important;
+text-align: left !important;
+	}
+
+	.supptsecond{
+		font-size: 12px !important;
+font-weight: 500 !important;
+font-family: 'CamptonMedium' !important;
+text-align: left !important;
+	}
+}
+
+/*Samsung Galaxy S8+ (360px)*/
+@media only screen and (min-device-width: 360px) and (max-device-width: 740px){
+.startedbtn{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+	--tw-gradient-from: #FFFFF !important;
+	--tw-gradient-to: #FFFFF !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 255)) !important;
+background-color: white;
+color: #10008B !important;
+}
+
+	.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+.navbutn{
+	position: absolute !important;
+}
+
+	.unlock {
+    height: 400px!important;
+    margin-left: 0px!important;
+    width: 250px!important;
+}
+
+.headerimg {
+    margin-bottom: 0px!important;
+    margin-top: -280px!important;
+}
+
+.loanspacing {
+    margin-left: -30px!important;
+    margin-right: 0!important;
+    padding-left: 40px!important;
+}
+
+.accesscontt {
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
+
+.howtext {
+    font-size: 18px!important;
+    margin-right: 40px!important;
+    padding-left: 0!important;
+    padding-right: 35px!important;
+}
+
+.form-contt {
+    height: 50px!important;
+    margin-right: 210px!important;
+    margin-top: -480px!important;
+    max-width: 0!important;
+}
+
+.whoheading {
+    padding-left: 20px!important;
+}
+
+.value {
+    margin-top: 120px!important;
+}
+
+.counterhero{
+	padding-left: 12px !important;
+}
+
+.whoheading {
+    margin-left: 40px !important;
+}
+
+.whobtn {
+    margin-left: 0px!important;
+    padding-left: 40px!important;
+    padding-right: 40px!important;
+}
+
+.achieveecont {
+    padding-bottom: 50px!important;
+    padding-top: 50px!important;
+}
+
+.startedbtn{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+	--tw-gradient-from: #FFFFF !important;
+	--tw-gradient-to: #FFFFF !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 255)) !important;
+background-color: white;
+color: #10008B !important;
+}
+
+.accessspacing{
+	padding-left: 15px !important;
+}
+
+	.round {
+    margin-left: 140px !important;
+}
+
+.form-cont {
+    margin-right: 20px !important;
+		max-width: 330px !important;
+		margin-left: 20px !important;
+ }
+
+ .about-rg {
+    margin-left: 30px !important;
+}
+
+.build-img {
+    margin-left: 30px !important;
+	}
+
+	.build-rg {
+    margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 30px !important;
+}
+
+.achieve-img {
+    max-width: 300px !important;
+    margin-left: 30px !important;
+	}
+
+	.access-rg {
+    margin-left: 30px !important;
+	}
+}
+
+
+
+/*Iphone SE (375px)*/
+@media only screen and (min-device-width: 375px) and (max-device-width: 667px){
+.navbutn{
+	position: absolute !important;
+}
+	.navsmall{
+	margin-top: 100px !important;
+}
+	.herospacing{
+	padding-top: 100px !important;
+}
+
+.startedbtn{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+	--tw-gradient-from: #FFFFF !important;
+	--tw-gradient-to: #FFFFF !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 255)) !important;
+background-color: white;
+color: #10008B !important;
+}
+
+.countbod{
+	border-top: none !important;
+}
+
+.counterhero {
+    margin-bottom: 500px !important; 
+}
+
+.achieveecont {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.accesscontt {
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
+
+.headerround{
+	margin-bottom: -500px !important;
+}
+
+.headerimg {
+    margin-bottom: 0px !important;
+    margin-top: -400px !important;
+
+	}
+
+	.unlock {
+    margin-left: 8px !important;
+}
+
+.unlockgrid {
+    padding-left: 0px !important;
+    padding-right: 2px !important;
+    align-content: center !important;
+    text-align: center !important;
+}
+
+.deduktmarginn{
+	margin-top: 64px !important;
+}
+
+	.privibtn{
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+	}
+
+	.whysecond {
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.whytextt {
+    padding-right: 30px !important;
+}
+
+	.deduktneed {
+    margin-left: 30px !important;
+		padding-right: 32px !important;
+	}
+
+	.getstarted {
+    padding-left: 120px !important;
+    padding-right: 96px !important;
+    margin-bottom: 70px !important;
+    margin-top: 30px !important;
+}
+
+.value {
+    margin-top: 120px !important;
+}
+
+	.whybtn {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-left: 9px !important;
+}
+
+.deduktspacingg{
+	padding-top: 160px !important;
+}
+
+.loanspacing {
+    margin-left: -20px !important;
+}
+
+.howtext {
+	  padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-right: 80px !important;
+}
+
+.buildspcing{
+	margin-right: -60px !important;
+}
+
+.achieve-rggg {
+    margin-left: -15px !important;
+    padding-right: 10px !important;
+	margin-top: -90px !important;
+	margin-bottom: -90px !important;
+	}
+
+	.achievefirstt{
+		margin-left: 100px !important;
+    margin-right: 80px !important;
+	}
+
+	.achievesecondd{
+		margin-left: 20px !important;
+    margin-right: 20px !important;
+	}
+
+	.accessfirstt{
+		margin-left: 50px !important;
+    margin-right: 50px !important;
+	}
+
+	.accesssecondd{
+		margin-left: 50px !important;
+    margin-right: 30px !important;
+	}
+
+	.lennstarted{
+		padding-left: 60px !important;
+		padding-right: 60px !important;
+	}
+
+	.lennstartedd {
+    padding-left: 60px !important;
+    padding-right: 20px !important;
+}
+
+.whoheading {
+    margin-left: 10px !important;
+		padding-left: 35px !important;
+}
+
+.valcontt{
+	margin-right: 30px !important;
+}
+
+.valheading {
+    margin-left: 30px !important;
+    margin-right: 20px !important;
+}
+
+.partnerspacing{
+	padding-top: 150px !important;
+}
+
+.form-namee .form-control{
+	/*background-clip: linear-gradient(to right, #10008B, #98E2EC) !important;*/
+border-color: #10008B !important;
+width: 250px !important;
+}
+
+.form-contt{
+	margin-right: 230px !important;
+    margin-top: -450px !important;
+}
+
+.deduktt{
+	padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.form-maill .form-control {
+	border-color: #10008B !important;
+    width: 250px !important;
+	}
+
+	.form-msgg .form-control {
+    width: 255px !important;
+		border-color: #10008B !important;
+	}
+
+	.form-btnn {
+    width: 250px !important;
+	}
+
+	.followtext{
+		font-size: 16px !important;
+	}
+
+	.iconn{
+		margin-top: 1px !important;
+    margin-left: -10px !important;
+	}
+
+	.form-req .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.reqdemotext{
+	font-size: 16px !important;
+}
+
+.modallbdy{
+	right: -16px !important;
+	top: -94px !important;
+}
+
+.form-req .form-label {
+    margin-left: -220px !important;
+		font-size: 20px !important;
+}
+
+.form-comp .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.form-comp .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-maila .form-control {
+    width: 300px !important;
+    margin-left: 18px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-btnreq {
+    width: 300px !important;
+		margin-left: 0px !important;
+		margin-right: -9px !important;
+	}
+
+	.support-padding {
+    padding-top: 500px !important;
+    padding-bottom: 50px !important;
+    margin-left: 10px !important;
+}
+}
+
+/*Iphone 12 Pro (390px)*/
+@media only screen and (min-device-width: 390px) and (max-device-width: 844px){
+.navbutn{
+	position: absolute !important;
+}
+	.navsmall{
+	margin-top: 100px !important;
+}
+	.herospacing{
+	padding-top: 100px !important;
+}
+
+.startedbtn{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+	--tw-gradient-from: #FFFFF !important;
+	--tw-gradient-to: #FFFFF !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 255)) !important;
+background-color: white;
+color: #10008B !important;
+}
+
+
+.accesscontt {
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
+
+.countbod{
+	border-top: none !important;
+}
+
+.headerround{
+	margin-bottom: -500px !important;
+}
+
+.headerimg {
+    margin-bottom: 0px !important;
+    margin-top: -400px !important;
+	}
+
+	.privibtn{
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+	}
+
+	.deduktneed {
+    margin-left: 30px !important;
+		padding-right: 32px !important;
+	}
+
+	.whybtn {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-left: 9px !important;
+}
+
+.deduktspacingg{
+	padding-top: 160px !important;
+}
+
+.loanspacing {
+    margin-left: -20px !important;
+		padding-top: 64px !important;
+}
+
+.howtext {
+	  padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-right: 80px !important;
+}
+
+.howtextfirst {
+    padding-right: 39px !important;
+}
+
+.howtextsecond {
+    padding-right: 55px !important;
+    margin-left: -65px !important;
+}
+
+.whoheading {
+    margin-left: 30px !important;
+    padding-left: 15px !important;
+}
+
+.buildspcing{
+	margin-right: -60px !important;
+}
+
+.achieve-rggg {
+    margin-left: 0px !important;
+    padding-right: 10px !important;
+	margin-top: -90px !important;
+	margin-bottom: -90px !important;
+	}
+
+.valcontt{
+	margin-right: -70px !important;
+}
+
+.valheading {
+    margin-left: 30px !important;
+    margin-right: 80px !important;
+}
+
+.form-contt {
+    margin-right: 240px !important;
+}
+
+.partnerspacing{
+	padding-top: 150px !important;
+}
+
+.achievefirstt {
+    margin-left: 80px !important;
+    margin-right: 80px !important;
+}
+
+.achievesecondd {
+    margin-left: 40px !important;
+    margin-right: 30px !important;
+}
+
+.form-namee .form-control{
+	/*background-clip: linear-gradient(to right, #10008B, #98E2EC) !important;*/
+border-color: #10008B !important;
+width: 250px !important;
+}
+
+.form-maill .form-control {
+	border-color: #10008B !important;
+    width: 250px !important;
+	}
+
+	.form-msgg .form-control {
+    width: 255px !important;
+		border-color: #10008B !important;
+	}
+
+	.form-btnn {
+    width: 250px !important;
+	}
+
+	.iconn{
+		margin-top: 6px !important;
+    margin-left: -12px !important;
+	}
+
+	.form-req .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.reqdemotext{
+	font-size: 16px !important;
+}
+
+.modallbdy{
+	right: -24px !important;
+	top: -94px !important;
+}
+
+.form-req .form-label {
+    margin-left: -220px !important;
+		font-size: 20px !important;
+}
+
+.form-comp .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.form-comp .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-maila .form-control {
+    width: 300px !important;
+    margin-left: 18px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-btnreq {
+    width: 300px !important;
+		margin-left: 0px !important;
+		margin-right: -9px !important;
+	}
+
+	.unlockgrid {
+    padding-left: 0px !important;
+    padding-right: 2px !important;
+    align-content: center !important;
+    text-align: center !important;
+}
+
+
+.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.round {
+    margin-left: 160px !important;
+}
+
+.form-cont {
+    margin-right: 20px !important;
+		max-width: 330px !important;
+		margin-left: 20px !important;
+ }
+
+ .about-rg {
+    margin-left: 30px !important;
+}
+
+.build-img {
+    margin-left: 30px !important;
+	}
+
+	.build-rg {
+    margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 30px !important;
+}
+
+.achieve-img {
+    max-width: 300px !important;
+    margin-left: 30px !important;
+	}
+
+	.access-rg {
+    margin-left: 30px !important;
+	}
+}
+
+/*Pixel 5 (393px)*/
+@media only screen and (min-device-width: 393px) and (max-device-width: 851px){
+.navbutn{
+	position: absolute !important;
+}
+	.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.startedbtn{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+	--tw-gradient-from: #FFFFF !important;
+	--tw-gradient-to: #FFFFF !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 255)) !important;
+background-color: white;
+color: #10008B !important;
+}
+
+
+.accesscontt {
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
+
+	.round {
+    margin-left: 160px !important;
+}
+
+.form-cont {
+    margin-right: 20px !important;
+		max-width: 330px !important;
+		margin-left: 20px !important;
+ }
+
+ .about-rg {
+    margin-left: 30px !important;
+}
+
+.build-img {
+    margin-left: 30px !important;
+	}
+
+	.build-rg {
+    margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 30px !important;
+}
+
+.achieve-img {
+    max-width: 300px !important;
+    margin-left: 30px !important;
+	}
+
+	.access-rg {
+    margin-left: 30px !important;
+	}
+}
+
+/*Samsung A51/71 (914px)*/
+@media only screen and (min-device-width: 412px) and (max-device-width: 914px){
+.navbutn{
+	position: absolute !important;
+}
+	.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.startedbtn{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+	--tw-gradient-from: #FFFFF !important;
+	--tw-gradient-to: #FFFFF !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 255)) !important;
+background-color: white;
+color: #10008B !important;
+}
+
+.accesscontt {
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
+
+	.round {
+    margin-left: 170px !important;
+}
+
+.form-cont {
+    margin-right: 25px !important;
+ }
+
+}
+
+/*Iphone XR (414px)*/
+@media only screen and (min-device-width: 414px) and (max-device-height: 896px){
+.navbutn{
+	position: absolute !important;
+}
+	.about-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.startedbtn{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+	--tw-gradient-from: #FFFFF !important;
+	--tw-gradient-to: #FFFFF !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 255)) !important;
+background-color: white;
+color: #10008B !important;
+}
+
+.accesscontt {
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
+
+	.herospacing {
+    padding-top: 100px !important;
+		padding-left: 12px !important;
+    padding-right: 12px !important;
+}
+
+.deduktspacingg {
+    padding-top: 160px !important;
+}
+
+.unlockgrid {
+    padding-left: 0px !important;
+    padding-right: 2px !important;
+    align-content: center !important;
+    text-align: center !important;
+}
+
+	.howtext {
+    padding-left: 0px !important;
+    padding-right: 20px !important;
+    margin-right: 100px !important;
+}
+
+	.deduktneed{
+		padding-left: 10px !important;
+	}
+
+	.unlockgrid {
+    padding-left: 0px !important;
+    padding-right: 2px !important;
+    align-content: center !important;
+    text-align: center !important;
+}
+
+.unlockmargin {
+    margin-right: 0px !important;
+}
+
+	.loanspacing {
+    margin-left: -20px !important;
+		padding-top: 20px !important;
+		padding-bottom: 10px !important;
+	}
+.navsmall{
+	margin-top: 100px !important;
+}
+	.herospacing{
+	padding-top: 100px !important;
+}
+
+.countbod{
+	border-top: none !important;
+}
+
+.counterhero {
+    margin-bottom: 500px !important;
+}
+
+.achieveecont {
+    padding-top: 100px !important;
+    padding-bottom: 100px !important;
+}
+
+.headerround{
+	margin-bottom: -500px !important;
+}
+
+.headerimg {
+    margin-bottom: 0px !important;
+    margin-top: -400px !important;
+
+	}
+
+	.unlock {
+    margin-left: 10px !important;
+}
+
+.deduktmarginn{
+	margin-top: 64px !important;
+}
+
+	.privibtn{
+		padding-bottom: 5px !important;
+		padding-top: 5px !important;
+	}
+
+	.whysecond {
+    margin-right: 0px !important;
+    padding-left: 0px !important;
+    padding-right: 0px !important;
+}
+
+.whytextt {
+    padding-right: 30px !important;
+}
+
+	.deduktneed {
+    margin-left: 30px !important;
+		padding-right: 32px !important;
+	}
+
+	.getstarted {
+    padding-left: 120px !important;
+    padding-right: 96px !important;
+    margin-bottom: 70px !important;
+    margin-top: 30px !important;
+}
+
+.value {
+    margin-top: 120px !important;
+}
+
+	.whybtn {
+    padding-left: 30px !important;
+    padding-right: 30px !important;
+    margin-left: 9px !important;
+}
+
+.deduktspacingg{
+	padding-top: 160px !important;
+}
+
+.loanspacing {
+    margin-left: -60px !important;
+}
+
+.howtext {
+	  padding-left: 0px !important;
+		padding-right: 0px !important;
+		margin-right: 80px !important;
+}
+
+.buildspcing{
+	margin-right: -60px !important;
+}
+
+.achieve-rggg {
+    margin-left: 0px !important;
+    padding-right: 10px !important;
+	margin-top: -90px !important;
+	margin-bottom: -90px !important;
+	}
+
+	.achievefirstt{
+		margin-left: 100px !important;
+    margin-right: 80px !important;
+	}
+
+	.achievesecondd{
+		margin-left: 20px !important;
+    margin-right: 20px !important;
+	}
+
+	.accessfirstt{
+		margin-left: 50px !important;
+    margin-right: 50px !important;
+	}
+
+	.accesssecondd{
+		margin-left: 50px !important;
+    margin-right: 30px !important;
+	}
+
+	.lennstarted{
+		padding-left: 60px !important;
+		padding-right: 60px !important;
+	}
+
+	.lennstartedd {
+    padding-left: 60px !important;
+    padding-right: 20px !important;
+}
+
+.whoheading {
+    margin-left: 10px !important;
+		padding-left: 35px !important;
+}
+
+.valcontt{
+	margin-right: 30px !important;
+}
+
+.valheading {
+    margin-left: 30px !important;
+    margin-right: 20px !important;
+}
+
+.partnerspacing{
+	padding-top: 150px !important;
+}
+
+.form-namee .form-control{
+	/*background-clip: linear-gradient(to right, #10008B, #98E2EC) !important;*/
+border-color: #10008B !important;
+width: 250px !important;
+}
+
+.form-contt{
+	margin-right: 270px !important;
+    margin-top: -450px !important;
+}
+
+.deduktt{
+	padding-left: 20px !important;
+    padding-right: 20px !important;
+}
+
+.form-maill .form-control {
+	border-color: #10008B !important;
+    width: 250px !important;
+	}
+
+	.form-msgg .form-control {
+    width: 255px !important;
+		border-color: #10008B !important;
+	}
+
+	.form-btnn {
+    width: 250px !important;
+	}
+
+	.followtext{
+		font-size: 16px !important;
+	}
+
+	.iconn{
+		margin-top: 1px !important;
+    margin-left: -10px !important;
+	}
+
+	.form-req .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.reqdemotext{
+	font-size: 16px !important;
+}
+
+.modallbdy{
+	right: -16px !important;
+	top: -94px !important;
+}
+
+.form-req .form-label {
+    margin-left: -220px !important;
+		font-size: 20px !important;
+}
+
+.form-comp .form-control {
+    width: 300px !important;
+    margin-left: 20px !important;
+}
+
+.form-comp .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-maila .form-control {
+    width: 300px !important;
+    margin-left: 18px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -120px !important;
+		font-size: 18px !important;
+}
+
+.form-btnreq {
+    width: 300px !important;
+		margin-left: 0px !important;
+		margin-right: -9px !important;
+	}
+
+	.support-padding {
+    padding-top: 500px !important;
+    padding-bottom: 50px !important;
+    margin-left: 10px !important;
+}
+
+
+	.round {
+    margin-left: 170px !important;
+}
+
+.form-cont {
+    margin-right: 20px !important;
+		max-width: 350px !important;
+ }
+
+ /*.about-rg {
+    margin-left: 80px !important;
+}*/
+
+.build-img {
+    margin-left: 30px !important;
+	}
+
+	/*.build-rg {
+    margin-left: 60px !important;
+	}*/
+
+	.achieve-rg {
+    margin-left: 30px !important;
+}
+
+.achieve-img {
+    max-width: 360px !important;
+    margin-left: 30px !important;
+	}
+
+	.access-rg {
+    margin-left: 30px !important;
+	}
+}
+
+/*Small devices (425px)*/
+@media only screen
+and (min-device-width: 425px) 
+and (max-device-width: 538px) { 
+.navbutn{
+	position: absolute !important;
+}
+	.unlockpaad{
+padding-top: 1px !important;
+}
+
+.startedbtn{
+	background-image: linear-gradient(to right, var(--tw-gradient-stops)) !important;
+	--tw-gradient-from: #FFFFF !important;
+	--tw-gradient-to: #FFFFF !important;
+  --tw-gradient-stops: var(--tw-gradient-from), var(--tw-gradient-to, rgb(255 255 255 / 255)) !important;
+background-color: white;
+color: #10008B !important;
+}
+
+.accesscontt {
+margin-left: 0px !important;
+margin-right: 0px !important;
+}
+
+.whybtn {
+    margin-left: 30px!important;
+}
+
+.loanspacing {
+    margin-left: 0px!important;
+}
+
+.howtext {
+    margin-right: 0px!important;
+    padding-left: 0px !important;
+    padding-right: 20px!important;
+}
+
+.unlock {
+    margin-left: 10px !important;
+	}
+
+	.deduktneed {
+    margin-left: 10px !important;
+}
+
+.howtextfirst {
+    padding-right: 110px !important;
+}
+
+.howtextsecond {
+    padding-right: 0px !important;
+    margin-left: -16px !important;
+}
+
+.form-comp .form-label{
+		margin-left: -50px !important;
+	}
+
+	.form-comp .form-control {
+    margin-left: 70px !important;
+}
+
+.form-req .form-control {
+    margin-left: 70px !important;
+}
+
+.form-maila .form-control {
+    margin-left: 70px !important;
+}
+
+	.form-req .form-label {
+    margin-left: -140px !important;
+}
+
+.form-maila .form-label {
+    margin-left: -50px !important;
+}
+
+
+	.form-btnreq{
+    margin-left: 0px !important;
+    margin-right: 0px !important;
+}
+
+.form-namee .form-label {
+    margin-left: -30px !important;
+} 
+
+.form-namee .form-control {
+    margin-left: -30px !important;
+} 
+
+.form-maill .form-label {
+    margin-left: -30px !important;
+}
+
+.form-maill .form-control {
+    margin-left: -30px !important;
+}
+
+.form-msgg .form-label {
+    margin-left: -30px !important;
+}
+
+.form-msgg .form-control {
+    margin-left: -30px !important;
+} 
+
+.form-btnn {
+    margin-left: -40px !important;
+}
+
+.logospacing{
+	padding-right: 80px !important;
+}
+
+.headerround{
+	width: 400px !important;
+	height: 400px !important;
+	margin-top: -380px !important;
+	padding-left: 30px !important;
+}
+
+.privibtn {
+    font-size: 14px !important;
+    margin-top: 80px !important;
+    margin-bottom: 40px !important;
+    width: 55% !important;
+	}
+
+.accesssbtn{
+		background-image: linear-gradient(to right, #F5F5F5, #FFFFFF) !important;
+color: #10008B !important;
+	}
+
+	.accessfirstt {
+  margin-bottom: 40px !important;
+	}
+
+	.accesssecondd {
+		margin-bottom: 40px !important;
+	}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.getstarted {
+    padding-left: 166px !important;
+    padding-right: 156px !important;
+	}
+
+	.whoheading {
+    padding-left: 60px !important;
+}
+
+.valuespacing {
+    padding-left: 70px !important;
+}
+
+.valuetext {
+    padding-left: 70px !important;
+}
+
+.growingthree {
+    margin-left: 220px !important;
+	}
+
+	.growingone {
+    margin-left: 170px !important;
+}
+
+.form-contt {
+    margin-right: 240px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 30px !important;
+	}
+
+	.promotion-logo{
+		display: none !important;
+	}
+
+	.promotion-padding {
+    padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+
+	.about-bg {
+     padding-top: 0px !important; 
+    padding-bottom: 0px !important;
+	}
+	.about-img{
+		max-width: 390px !important;
+    height: 390px !important;
+    margin-left: 0px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 390px !important;
+    height: 390px !important;
+		margin-left: 20px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-text h1 {
+    font-size: 22px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 40px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 30px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 30px !important;
+	}
+
+	.achieve-rg {
+    margin-top: 0px !important;
+	}
+
+	.achieve-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.access-text h1{
+  font-size: 30px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 20px !important;
+		padding-top: 20px !important;
+	}
+
+.access-bg {
+    padding-top: 80px !important;
+    padding-bottom: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 180px !important;
+	}
+
+	.support-big {
+    font-size: 30px !important;
+	}
+
+	.support-small {
+    font-size: 14px !important;
+	}
+
+	.support-logo{
+	background-image: none !important;
+	}
+
+	.support-padding {
+    padding-bottom: 50px!important;
+    padding-top: 500px!important;
+}
+
+	.support-text{
+		margin-top: -350px !important;
+		margin-left: 25px !important;
+	}
+
+	.form-mail .form-control {
+    width: 150px !important;
+		margin-left: 30px !important;
+	}
+
+	.form-mail .form-label {
+		margin-left: 30px !important;
+	}
+
+	.form-name .form-control {
+    width: 125px !important;
+	}
+
+	.form-msg .form-control {
+    width: 250px !important;
+	}
+
+	.form-btn {
+    width: 250px !important;
+    margin-right: 60px !important;
+}
+
+	.form-cont {
+    max-width: 350px !important;
+		margin-right: 20px !important;
+		margin-top: -30px !important;
+		height: 550px !important;
+	}
+	
+	.deduktlogoo {
+    width: 80% !important;
+    padding-left: 1px !important;
+    margin-right: 25px !important;
+}
+
+}
+
+/*Large devices (768px)*/
+@media only screen
+and (min-device-width: 538px) 
+and (max-device-width: 768px) { 
+
+	.dedlogo{
+		width: 80% !important;
+	}
+
+	.herospacing {
+    padding-top: 50px!important;
+    padding-left: 70px!important;
+    padding-right: 70px!important;
+}
+
+.herosecond{
+	padding-left: 60px !important;
+    padding-right: 60px !important;
+}
+
+.unlockpaad{
+	padding-top: 32px !important;
+}
+
+.unlockfirst{
+	font-size: 20px !important;
+}
+
+.unlocksecond{
+	font-size: 16px !important;
+}
+
+.unlockmargin {
+    margin-right: 150px!important;
+}
+
+.unlock{
+	width: 80% !important;
+}
+
+.unlockgrid {
+    align-content: center!important;
+    padding-left: 80px!important;
+    padding-right: 2px!important;
+    text-align: center!important;
+		margin-top: 70px !important; 
+}
+
+.whyfirst{
+	font-size: 24px !important;
+}
+
+.whysecond {
+    margin-right: 40px!important;
+    padding-left: 0px!important;
+    padding-right: 80px!important;
+}
+
+.deduktneed {
+    margin-left: 120px!important;
+}
+
+.howfirst{
+	font-size: 20px !important;
+}
+
+.howsecond{
+	padding-right: 80px !important;
+}
+
+.howtextfirst{
+	font-size: 20px !important;
+    padding-right: 220px!important;
+}
+
+.howtextsecond{
+	font-size: 20px !important;
+}
+
+.howtext {
+    margin-right: 190px !important;
+    padding-left: 0px !important;
+    padding-right: 45px!important;
+}
+
+.howimg{
+	width: 70% !important;
+	margin-left: 16px !important;
+}
+
+.headerimg {
+    margin-bottom: 0!important;
+    margin-top: -50px!important;
+}
+
+.whotext{
+	font-size: 24px !important;
+}
+
+.whoalign {
+    padding-right: 170px !important;
+}
+
+.whobtn{
+	padding-top: 10px !important;
+	padding-bottom: 10px !important;
+}
+
+.valuetext{
+	font-size: 20px !important;
+}
+
+.valuespacing{
+	margin-right: 100px !important;
+}
+
+.abtimg {
+    margin-left: -60px !important;
+    margin-right: 0px !important;
+}
+
+.support-padding {
+    margin-left: 40px!important;
+    padding-bottom: 50px!important;
+    padding-top: 50px!important;
+}
+
+.form-contt {
+    margin-right: -280px!important;
+    margin-top: -250px!important;
+}
+
+.deduktlogoo{
+	padding-left: 80px !important;
+    padding-right: 80px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.herooimg{
+		margin-top: 16px !important;
+	}
+
+	.navsizing{
+font-size: 8px !important;
+line-height: 16px !important;
+}
+
+.whyabt{
+	display: none !important;
+}
+
+.navbutn{
+white-space: nowrap !important;
+}
+
+.lennav{
+font-size: 8px !important;
+}
+
+.headerr{
+	padding-right: 180px !important;
+    margin-left: 550px !important;
+		margin-top: -800px !important;
+		background-image: none !important;
+}
+
+.privvi{
+	margin-right: 50px !important;
+    margin-left: 50px !important;
+}
+
+.privipolicy{
+	padding-left: 140px !important;
+    padding-top: 150px !important;
+}
+
+.accessb{
+	margin-left: 80px !important;
+  margin-top: 60px !important;
+}
+
+.startedbtn{
+	font-size: 16px !important;
+}
+
+.startedbtnn{
+	font-size: 16px !important;
+}
+
+.accessround {
+    margin-left: 128px !important;
+	}
+
+.lenn{
+	display: none !important;
+}
+
+.achievetv{
+	padding-left: 1px !important;
+}
+
+.valuess{
+	padding-left: 40px !important;
+}
+
+.growingo{
+	margin-right: 350px !important;
+}
+
+.growingtw{
+	margin-left: 26rem !important;
+}
+
+.growingth{
+	margin-right: -15rem !important;
+    margin-top: -8rem !important;
+}
+
+.deduktneed{
+	margin-left: 40px !important;
+}
+
+.whybtn {
+    margin-left: 18px !important;
+}
+
+.getstarted{
+padding-left: 4rem !important;
+padding-right: 4rem !important;
+}
+
+.whoimg{
+	display: none !important;
+}
+
+.whoheading{
+	padding-left: 40px !important;
+}
+
+.valheading {
+	padding-left: 40px !important;
+}
+
+.growingthree{
+	margin-right: -5rem !important;
+}
+
+.growingfour{
+	display: none !important;
+}
+
+.growingone{
+	margin-right: 300px !important;
+}
+
+.reqdemobtn{
+	padding-left: 16rem !important;
+	padding-right: 16rem !important;
+}
+
+ .formfill .form-contt {
+    max-width: 270px !important;
+		margin-right: 10px !important;
+	}
+
+.form-namee .form-control {
+    width: 100px !important;
+}
+
+.form-maill .form-control {
+    width: 110px !important;
+	}
+
+	.form-msgg .form-control {
+    height: 150px !important;
+    width: 230px !important;
+	}
+
+	.form-btnn {
+    width: 230px !important;
+	}
+
+	.deduktt {
+    padding-right: 250px !important;
+    margin-left: 30px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -140px !important;
+}
+
+.head-padding{
+	margin-left: 60px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 30px !important;
+	}
+
+	.promotion-logo{
+		padding-top: 40px !important;
+	}
+
+	.promotion-padding {
+    padding-bottom: 65px !important;
+	}
+
+	.about-img{
+		max-width: 390px !important;
+    height: 390px !important;
+    margin-left: 0px !important;
+		padding-bottom: 800px !important;
+	}
+
+	.about-rg {
+			margin-left: 70px !important;
+	}
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 390px !important;
+    height: 390px !important;
+		margin-left: 20px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-text h1 {
+    font-size: 22px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 22px !important;
+	}
+
+	.achieve-text p {
+    font-size: 13px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 30px !important;
+	}
+
+	.access-text h1{
+  font-size: 20px !important;
+}
+
+.access-text p {
+    font-size: 13px !important;
+	}
+
+.access-rg {
+    margin-left: 20px !important;
+		padding-top: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 80px !important;
+	}
+
+	.support-big {
+    font-size: 24px !important;
+	}
+
+	.support-small {
+    font-size: 12px !important;
+	}
+
+	.form-mail .form-control {
+    width: 150px !important;
+	}
+
+	.form-name .form-control {
+    width: 125px !important;
+	}
+
+	.form-msg .form-control {
+    width: 300px !important;
+	}
+
+	.form-btn {
+    width: 300px !important;
+	}
+
+	.form-cont {
+    max-width: 350px !important;
+		margin-right: 20px !important;
+	}
+
+	.formfilll .form-contt {
+    margin-right: 0px !important;
+    max-width: 280px !important;
+}
+}
+
+/*Surface Duo (720px)*/
+@media only screen
+and (min-device-width: 540px) 
+and (max-device-width: 720px) { 
+	.container .logo {
+    margin-left: 10px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 26px !important;
+	}
+
+	.promotion-logo{
+		padding-top: 40px !important;
+	}
+
+	.promotion-padding {
+    padding-bottom: 65px !important;
+	}
+
+	.about-img{
+		max-width: 390px !important;
+    height: 390px !important;
+    margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.about-rg {
+    margin-left: 60px !important;
+	}
+
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 390px !important;
+    height: 390px !important;
+		margin-left: 60px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-rg {
+    margin-left: 60px !important;
+}
+
+	.build-text h1 {
+    font-size: 28px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 60px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 28px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		/*height: 380px !important;*/
+		margin-left: 60px !important;
+	}
+
+	.access-text h1{
+  font-size: 28px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 60px !important;
+		padding-top: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 240px !important;
+	}
+
+	.support-big {
+    font-size: 28px !important;
+	}
+
+	.support-small {
+    font-size: 15px !important;
+	}
+
+	.form-mail .form-control {
+    width: 150px !important;
+	}
+
+	.form-name .form-control {
+    width: 125px !important;
+	}
+
+	.form-msg .form-control {
+    width: 300px !important;
+	}
+
+	.form-btn {
+    width: 300px !important;
+	}
+
+	.form-cont {
+    max-width: 450px !important;
+		margin-right: 40px !important;
+	}
+}
+
+/*NestHub (1024px)*/
+@media only screen
+and (min-device-width: 600px) 
+and (max-device-width: 1024px) { 
+	.container .logo {
+    margin-left: 0px !important;
+}
+
+.promotion-logo {
+    padding-left: -140px !important;
+	}
+
+	.about-rg {
+    margin-left: 180px !important;
+}
+
+}
+
+/*Ipad Mini (1024px)*/
+@media only screen
+and (min-device-width: 768px) 
+and (max-device-width: 1024px) { 
+	.container .logo {
+    margin-left: 0px !important;
+}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 60px !important;
+}
+
+.big-text {
+    font-size: 30px !important;
+	}
+
+	.about-text h1 {
+    font-size: 30px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-text h1 {
+    font-size: 30px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 390px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 30px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 380px !important;
+		margin-left: 30px !important;
+	}
+
+	.access-text h1{
+font-size: 28px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 40px !important;
+		padding-top: 50px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 80px !important;
+	}
+
+}
+
+
+/*Ipad Air (1180px)*/
+@media only screen
+and (min-device-width: 820px) 
+and (max-device-width: 1180px) { 
+	.container .logo {
+    margin-left: 0px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 140px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -160px !important;
+}
+
+.head-padding{
+	margin-left: 60px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 26px !important;
+	}
+
+	.promotion-padding {
+    padding-bottom: 65px !important;
+	}
+
+	.about-img{
+		max-width: 360px !important;
+    height: 390px !important;
+    margin-left: 0px !important;
+		padding-bottom: 800px !important;
+	}
+
+	.about-rg {
+    margin-left: 180px !important;
+	}
+
+	.about-bg {
+    padding-top: 125px !important;
+    padding-bottom: 125px !important;
+	}
+
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 360px !important;
+    height: 390px !important;
+		margin-left: 60px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-rg {
+    margin-left: 80px !important;
+}
+
+	.build-text h1 {
+    font-size: 28px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 60px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 28px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 330px !important;
+		height: 380px !important;
+		margin-left: 60px !important;
+	}
+
+	.access-text h1{
+  font-size: 28px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 60px !important;
+		padding-top: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 90px !important;
+	}
+
+	.support-big {
+    font-size: 28px !important;
+	}
+
+	.support-small {
+    font-size: 15px !important;
+	}
+
+	.form-mail .form-control {
+    width: 100px !important;
+	}
+
+	.form-name .form-control {
+    width: 100px !important;
+	}
+
+	.form-msg .form-control {
+    width: 240px !important;
+	}
+
+	.form-btn {
+    width: 240px !important;
+	}
+
+	.form-cont {
+    max-width: 290px !important;
+		margin-right: 0px !important;
+	}
+
+}
+
+
+/* For surface Duo(1368px)*/
+@media only screen
+and (min-device-width: 912px) 
+and (max-device-width: 1368px) { 
+	.container .logo {
+    margin-left: -70px !important;
+}
+
+.sign-in{
+	margin-left: -50px !important;
+  margin-bottom: 20px !important;
+  margin-top: 10px !important;
+}
+
+.get-started{
+	margin-left: -25px !important;
+  margin-top: 5px !important;
+}
+
+.img-header {
+    padding-top: 120px !important;
+    padding-bottom: 60px !important;
+	}
+
+.promotion-logo{
+		margin-left: -10px !important;
+		padding-top: 40px !important;
+}
+
+.head-padding{
+	margin-left: 30px !important;
+}
+
+.big-text {
+    font-size: 25px !important;
+	}
+
+	.promotion {
+    font-size: 26px !important;
+	}
+
+	.promotion-padding {
+    padding-bottom: 65px !important;
+	}
+
+	.about-img{
+		max-width: 360px !important;
+    height: 390px !important;
+    margin-left: 60px !important;
+		padding-bottom: 750px !important;
+	}
+
+	.about-rg {
+    margin-left: 280px !important;
+	}
+
+	.about-bg {
+    padding-top: 125px !important;
+    padding-bottom: 125px !important;
+	}
+
+
+	.about-text h1 {
+    font-size: 25px !important;
+	}
+
+	.about-text p {
+    font-size: 15px !important;
+	}
+
+	.build-img {
+    max-width: 360px !important;
+    height: 390px !important;
+		margin-left: 60px !important;
+		padding-bottom: 550px !important;
+	}
+
+	.build-rg {
+    margin-left: 60px !important;
+}
+
+	.build-text h1 {
+    font-size: 28px !important;
+	}
+
+	.build-text p {
+    font-size: 15px !important;
+	}
+
+	.achieve-img{
+		max-width: 330px !important;
+    height: 330px !important;
+		margin-left: 60px !important;
+		padding-bottom: 450px !important;
+	}
+
+	.achieve-rg {
+    margin-left: 60px !important;
+	}
+
+	.achieve-text h1 {
+    font-size: 28px !important;
+	}
+
+	.achieve-text p {
+    font-size: 15px !important;
+	}
+
+	.access-img {
+		max-width: 330px !important;
+		/*height: 380px !important;*/
+		margin-left: 60px !important;
+	}
+
+	.access-text h1{
+  font-size: 28px !important;
+}
+
+.access-text p {
+    font-size: 15px !important;
+	}
+
+.access-rg {
+    margin-left: 60px !important;
+		padding-top: 80px !important;
+	}
+
+	.btn-started {
+    font-size: 13px !important;
+	}
+
+	.round {
+		margin-left: 90px !important;
+	}
+
+	.support-big {
+    font-size: 28px !important;
+	}
+
+	.support-small {
+    font-size: 15px !important;
+	}
+
+	.form-mail .form-control {
+    width: 100px !important;
+	}
+
+	.form-name .form-control {
+    width: 100px !important;
+	}
+
+	.form-msg .form-control {
+    width: 240px !important;
+	}
+
+	.form-btn {
+    width: 240px !important;
+	}
+
+	.form-cont {
+    max-width: 290px !important;
+		margin-right: 0px !important;
+	}
+
+}
+
+
+/*@media (min-width: 640px) { 
 
 }
 
 
 @media (min-width: 768px) { 
 
+
+
 }
+
 /*Large devices (desktops, 1024px and up)*/
-@media (min-width: 1024px) { 
+@media screen and (min-device-width: 1024px) and (max-device-width: 1247px) { 
+.navbutn{
+	white-space: nowrap !important;
+}
+
+.navspcing{
+	margin-left: 10px !important;
+}
+
+.counterhero{
+	margin-right: -80px !important;
+}
+
+.herospacing{
+	padding-top: 150px !important;
+}
+
+.headerimg{
+	width: 55% !important;
+	padding-left: 30px !important;
+  margin-top: -100px !important;
+}
+
+.privibtn {
+    margin-bottom: 0px !important;
+}
+.acessspacing{
+	margin-right: -100px !important;
+    margin-left: 20px !important;
+}
+
+.privispacingg {
+margin-right: -110px !important;
+}
+.unlockgrid{
+	padding-left: 8px !important;
+    padding-right: 100px !important;
+}
+
+.whyabt {
+    margin-top: 170px !important;
+    margin-left: 30px !important;
+}
+
+.deduktneed{
+	margin-left: 50px !important;
+    margin-right: -60px !important;
+}
+
+.whybtn {
+    padding-left: 110px !important;
+    padding-right: 110px !important;
+}
+
+.howdiv{
+	margin-left: -20px !important;
+}
+
+.loanspacing{
+	padding-left: 16px !important;
+}
+
+.howtext{
+	padding-right: 16px !important;
+}
+
+.whoheading {
+    margin-left: -10px !important;
+}
+
+.whoimg {
+    padding-left: 40px !important;
+    margin-right: 0px !important;
+}
+
+.valheading {
+    margin-left: 0px !important;
+    margin-right: 100px !important;
+}
+
+.form-contt{
+	margin-right: -90px !important;
+}
+
+.deduktlogoo{
+	padding-left: 70px !important;
+}
+
+.achieveround{
+margin-left: -8px !important;
+}
+
+.achieve-rggg{
+	margin-right: 130px !important;
+    padding-left: 50px !important;
+    padding-right: 10px !important;
+}
+
+.accessround{
+	margin-left: 10px !important;
+}
+
+/*.accessround{
+	margin-left: 140px !important;
+}
+
+.achieve-rgg{
+	padding-left: 0px !important;
+}*/
 
 }
 
-@media (max-width: 1248px) { 
-
-
-}
 /*max-width: var(--max-width,1248px);
     margin: 0px auto;
     padding-left: 20px;
     padding-right: 20px;*/
-/*@media (min-width: 1536px) { 
+@media (min-width: 1248px) { 
+.achieveround{
+	margin-left: -120px !important;
+}
 
+.privibtn {
+    margin-bottom: -10px !important;
+}
+
+ .lenbtnn  {
+    margin-bottom: -45px !important;
+}
+
+.accessspacing{
+	margin-right: -120px !important;
+}
+
+.achieve-rggg{
+	margin-left: 70px !important;
+}
+
+.herospacing{
+	padding-top: 150px !important;
+}
+
+.headerimg{
+	width: 55% !important;
+	padding-left: 30px !important;
+  margin-top: -20px !important;
+}
+
+.accessround{
+	margin-left: 50px !important;
+}
+
+.achieve-rgg{
+	padding-left: 0px !important;
+}
+
+.counterhero{
+	margin-right: -80px !important;
+}
+
+}
+
+		@media screen and (min-width: 1366px){
+.achieveround{
+	padding-left: 100px !important;
+	margin-left: -80px !important;
+}
+
+.lenbtnn {
+    margin-bottom: 30git gc --prune=nowpx!important;
+}
+
+.accessspacing{
+	margin-left: -90px !important;
+}
+
+.accessround {
+    margin-left: 30px !important;
+		padding-left: 100px !important;
+}
+
+/*.achieve-rggg {
+    margin-left: 30px !important;
 }*/
 
+.accesscontt{
+	margin-right: -240px !important;
+}
+}
+
+@media (min-width: 1536px)  { 
+.lenbtnn {
+    margin-bottom: 145px !important;
+		margin-top: 200px !important;
+}
+
+.achieveround {
+    margin-left: -20px !important;
+		padding-left: 100px !important;
+}
+
+.privibtn {
+    margin-bottom: -10px !important;
+}
+
+.whoheading {
+    margin-left: 0px !important;
+    padding-left: 60px !important;
+    margin-right: 120px !important;
+}
+
+.whoimg {
+    padding-left: 180px !important;
+}
+
+.acessspacing{
+	margin-right: -80px !important;
+    margin-left: 100px !important;
+}
+
+.achieve-rggg {
+    margin-left: -80px !important;
+}
+
+.accessround {
+    margin-left: 90px !important;
+		padding-right: 0px !important;
+}
+
+.privispacingg {
+margin-right: -330px !important;
+}
+
+}
+
+@media (min-width: 1980px) { 
+.lenbtnn {
+    margin-bottom: -320px !important;
+    margin-top: 280px !important;
+}
+	.privibtn {
+    margin-bottom: -10px !important;
+}
+
+.acessspacing{
+	margin-right: -280px !important;
+    margin-left: 200px !important;
+}
+
+.privispacingg {
+margin-right: -290px !important;
+}
+
+.achieveround{
+	margin-left: -230px !important;
+}
+
+.accessround{
+	padding-left: 120px !important;
+    margin-left: -110px !important;
+}
+
+.achieve-rggg {
+	margin-left: 40px !important;
+	margin-right: 90px !important;
+    padding-right: 60px !important;
+		padding-left: 60px !important;
+}
+
+.whoheading {
+    padding-right: 290px !important;
+    margin-left: 100px !important;
+}
+.whoimg {
+    padding-left: 400px !important;
+}
+
+}
+
+@media (min-width: 2560px) { 
+.achieveround{
+	margin-left: -520px !important;
+}
+
+.privibtn {
+    margin-bottom: -10px !important;
+}
+
+.lenbtnn{
+	margin-bottom: 6px !important;
+    margin-top: 40px !important;
+}
+.whoimg{
+	margin-left: 580px !important; 
+}
+
+.whoheading{
+	padding-right: 480px !important;
+    margin-left: 180px !important;
+}
+
+.acessspacing{
+	margin-right: -700px !important;
+    margin-left: 250px !important;
+}
+
+.privispacingg {
+margin-right: -1210px !important;
+}
+
+.accessround{
+	padding-left: 200px !important;
+	margin-left: -190px !important;
+}
+
+.achieve-rggg{
+	margin-left: 80px !important;
+    padding-right: 160px !important;
+		padding-left: 0px !important;
+}
+}
+
+@media (min-width: 2880px) { 
+.achieveround {
+    margin-left: -650px!important;
+		padding-left: 100px !important;
+}
+
+.privibtn {
+    margin-bottom: -10px !important;
+}
+
+.accessround {
+    padding-left: 150px!important;
+		margin-left: -60px!important;
+}
+
+ .lenbtnn{
+	margin-bottom: -300px !important;
+    margin-top: 300px !important;
+}
+
+.deduktt{
+	padding-left: 300px !important;
+    padding-right: 300px !important;
+}
+}
+
+@media (min-width: 3072px)  {
+ .lenbtnn{
+		margin-bottom: -400px !important;
+    margin-top: 400px !important;
+}
+
+.privibtn {
+    margin-bottom: -10px !important;
+}
+
+.acessspacing {
+    margin-left: 350px!important;
+    margin-right: -800px!important;
+} 
+
+.accessround {
+    padding-left: -60px!important;
+		margin-left: 80px !important;
+}
+
+.achieveround {
+    margin-left: -780px!important;
+		padding-left: 80px !important;
+}
+
+.access-rgg {
+    margin-left: 190px !important;
+	}
+
+.deduktt{
+	padding-left: 400px !important;
+    padding-right: 350px !important;
+}
+}
 /*--------------------------MEDIA QUERIES ENDS------------*/
 
 /*--------------------------REQ DEMO MODAL STARTS------------*/
@@ -75,6 +3746,7 @@ hr{
     padding-left: 20px;
     padding-right: 20px;
 }
+
 
 .whytextt{
 	padding-right: 100px;
@@ -157,6 +3829,11 @@ hr{
 .privibtn{
   margin-bottom: -1px;
 }
+
+ .lenbtnn{
+	margin-bottom: -45px;
+}
+
 .privacy-btnreq{
 	width: 150px;
 	height: 47px;
@@ -467,7 +4144,16 @@ margin-top: 40px;
 
 .achieve-rgg{
 margin-left: 20px;
-    margin-top: 100px;}
+    margin-top: 100px;
+	}
+
+	.achieve-rggg{
+margin-left: 70px;
+	}
+
+	.accesscontt{
+		margin-left: 165px;
+	}
 
 .achieve-img{
 background-image: url('assets/achieve.svg');
